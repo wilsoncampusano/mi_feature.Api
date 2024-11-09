@@ -12,9 +12,9 @@ namespace App.Queries
         private readonly IValidator<ObtenerPolizaQuery> _validator;
 
 
-        public ObtenerPolizaHandler()
+        public ObtenerPolizaHandler(IPolizaRepository repository)
         {
-         
+            _repository = repository;
         }
 
         public async Task<Result<PolizaDto>> Handle(ObtenerPolizaQuery request, CancellationToken cancellationToken)

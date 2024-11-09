@@ -281,3 +281,1865 @@
 2024-11-09 18:42:31.255 -04:00 [DBG] Connection id "0HN811V4SS9LL" sending FIN because: "The Socket transport's send loop completed gracefully."
 2024-11-09 18:42:31.256 -04:00 [DBG] Connection id "0HN811V4SS9LL" disconnecting.
 2024-11-09 18:42:31.258 -04:00 [DBG] Connection id "0HN811V4SS9LL" stopped.
+2024-11-09 19:19:41.026 -04:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-11-09 19:19:41.132 -04:00 [DBG] Hosting starting
+2024-11-09 19:19:41.340 -04:00 [INF] Now listening on: http://localhost:5107
+2024-11-09 19:19:41.341 -04:00 [DBG] Loaded hosting startup assembly mi_feature.Api
+2024-11-09 19:19:41.341 -04:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-11-09 19:19:41.342 -04:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-11-09 19:19:41.343 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-09 19:19:41.344 -04:00 [INF] Hosting environment: Development
+2024-11-09 19:19:41.345 -04:00 [INF] Content root path: C:\Users\wilsoncampusano\source\repos\MiFeatureMicroservicio\mi_feature.Api
+2024-11-09 19:19:41.346 -04:00 [DBG] Hosting started
+2024-11-09 19:19:41.667 -04:00 [DBG] Connection id "0HN812JUKBNEO" received FIN.
+2024-11-09 19:19:41.667 -04:00 [DBG] Connection id "0HN812JUKBNEN" received FIN.
+2024-11-09 19:19:41.690 -04:00 [DBG] Connection id "0HN812JUKBNEN" accepted.
+2024-11-09 19:19:41.690 -04:00 [DBG] Connection id "0HN812JUKBNEO" accepted.
+2024-11-09 19:19:41.691 -04:00 [DBG] Connection id "0HN812JUKBNEN" started.
+2024-11-09 19:19:41.691 -04:00 [DBG] Connection id "0HN812JUKBNEO" started.
+2024-11-09 19:19:41.747 -04:00 [DBG] Connection id "0HN812JUKBNEO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-09 19:19:41.747 -04:00 [DBG] Connection id "0HN812JUKBNEN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-09 19:19:41.756 -04:00 [DBG] Connection id "0HN812JUKBNEN" disconnecting.
+2024-11-09 19:19:41.756 -04:00 [DBG] Connection id "0HN812JUKBNEO" disconnecting.
+2024-11-09 19:19:41.804 -04:00 [DBG] Connection id "0HN812JUKBNEO" stopped.
+2024-11-09 19:19:41.804 -04:00 [DBG] Connection id "0HN812JUKBNEN" stopped.
+2024-11-09 19:19:42.294 -04:00 [DBG] Connection id "0HN812JUKBNEP" accepted.
+2024-11-09 19:19:42.295 -04:00 [DBG] Connection id "0HN812JUKBNEP" started.
+2024-11-09 19:19:42.345 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5107/swagger/index.html - null null
+2024-11-09 19:19:42.449 -04:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-11-09 19:19:42.464 -04:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-11-09 19:19:42.465 -04:00 [DBG] Request did not match any endpoints
+2024-11-09 19:19:42.471 -04:00 [INF] Solicitud entrante: GET /swagger/index.html
+2024-11-09 19:19:42.538 -04:00 [INF] Respuesta: <!-- HTML for static distribution bundle build -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Swagger UI</title>
+    <link rel="stylesheet" type="text/css" href="./swagger-ui.css">
+    <link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16" />
+    <style>
+
+        html {
+            box-sizing: border-box;
+            overflow: -moz-scrollbars-vertical;
+            overflow-y: scroll;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        body {
+            margin: 0;
+            background: #fafafa;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <div id="swagger-ui"></div>
+
+    <!-- Workaround for https://github.com/swagger-api/swagger-editor/issues/1371 -->
+    <script>
+        if (window.navigator.userAgent.indexOf("Edge") > -1) {
+            console.log("Removing native Edge fetch in favor of swagger-ui's polyfill")
+            window.fetch = undefined;
+        }
+    </script>
+
+    <script src="./swagger-ui-bundle.js"></script>
+    <script src="./swagger-ui-standalone-preset.js"></script>
+    <script>
+        /* Source: https://gist.github.com/lamberta/3768814
+         * Parse a string function definition and return a function object. Does not use eval.
+         * @param {string} str
+         * @return {function}
+         *
+         * Example:
+         *  var f = function (x, y) { return x * y; };
+         *  var g = parseFunction(f.toString());
+         *  g(33, 3); //=> 99
+         */
+        function parseFunction(str) {
+            if (!str) return void (0);
+
+            var fn_body_idx = str.indexOf('{'),
+                fn_body = str.substring(fn_body_idx + 1, str.lastIndexOf('}')),
+                fn_declare = str.substring(0, fn_body_idx),
+                fn_params = fn_declare.substring(fn_declare.indexOf('(') + 1, fn_declare.lastIndexOf(')')),
+                args = fn_params.split(',');
+
+            args.push(fn_body);
+
+            function Fn() {
+                return Function.apply(this, args);
+            }
+            Fn.prototype = Function.prototype;
+
+            return new Fn();
+        }
+
+        window.onload = function () {
+            var configObject = JSON.parse('{"urls":[{"url":"/swagger/v1/swagger.json","name":"Mi API V1"}],"deepLinking":false,"persistAuthorization":false,"displayOperationId":false,"defaultModelsExpandDepth":1,"defaultModelExpandDepth":1,"defaultModelRendering":"example","displayRequestDuration":false,"docExpansion":"list","showExtensions":false,"showCommonExtensions":false,"supportedSubmitMethods":["get","put","post","delete","options","head","patch","trace"],"tryItOutEnabled":false}');
+            var oauthConfigObject = JSON.parse('{"scopeSeparator":" ","scopes":[],"useBasicAuthenticationWithAccessCodeGrant":false,"usePkceWithAuthorizationCodeGrant":false}');
+
+            // Workaround for https://github.com/swagger-api/swagger-ui/issues/5945
+            configObject.urls.forEach(function (item) {
+                if (item.url.startsWith("http") || item.url.startsWith("/")) return;
+                item.url = window.location.href.replace("index.html", item.url).split('#')[0];
+            });
+
+            // If validatorUrl is not explicitly provided, disable the feature by setting to null
+            if (!configObject.hasOwnProperty("validatorUrl"))
+                configObject.validatorUrl = null
+
+            // If oauth2RedirectUrl isn't specified, use the built-in default
+            if (!configObject.hasOwnProperty("oauth2RedirectUrl"))
+                configObject.oauth2RedirectUrl = (new URL("oauth2-redirect.html", window.location.href)).href;
+
+            // Apply mandatory parameters
+            configObject.dom_id = "#swagger-ui";
+            configObject.presets = [SwaggerUIBundle.presets.apis, SwaggerUIStandalonePreset];
+            configObject.layout = "StandaloneLayout";
+
+            // Parse and add interceptor functions
+            var interceptors = JSON.parse('{"RequestInterceptorFunction":null,"ResponseInterceptorFunction":null}');
+            if (interceptors.RequestInterceptorFunction)
+                configObject.requestInterceptor = parseFunction(interceptors.RequestInterceptorFunction);
+            if (interceptors.ResponseInterceptorFunction)
+                configObject.responseInterceptor = parseFunction(interceptors.ResponseInterceptorFunction);
+
+            // Begin Swagger UI call region
+
+            const ui = SwaggerUIBundle(configObject);
+
+            ui.initOAuth(oauthConfigObject);
+
+            // End Swagger UI call region
+
+            window.ui = ui
+        }
+    </script>
+</body>
+</html>
+
+2024-11-09 19:19:42.544 -04:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-11-09 19:19:42.548 -04:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-11-09 19:19:42.578 -04:00 [INF] HTTP GET /swagger/index.html responded 200 in 106.2964 ms
+2024-11-09 19:19:42.580 -04:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-11-09 19:19:42.582 -04:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-11-09 19:19:42.583 -04:00 [DBG] Connection id "0HN812JUKBNEP" completed keep alive response.
+2024-11-09 19:19:42.586 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5107/swagger/index.html - 200 null text/html;charset=utf-8 249.15ms
+2024-11-09 19:19:42.601 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5107/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-09 19:19:42.607 -04:00 [DBG] Connection id "0HN812JUKBNEP" completed keep alive response.
+2024-11-09 19:19:42.608 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5107/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 7.3763ms
+2024-11-09 19:19:43.114 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5107/_vs/browserLink - null null
+2024-11-09 19:19:43.174 -04:00 [DBG] Connection id "0HN812JUKBNEP" completed keep alive response.
+2024-11-09 19:19:43.176 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5107/_vs/browserLink - 200 null text/javascript; charset=UTF-8 61.908ms
+2024-11-09 19:19:43.560 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5107/swagger/v1/swagger.json - null null
+2024-11-09 19:19:43.562 -04:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-11-09 19:19:43.563 -04:00 [DBG] Request did not match any endpoints
+2024-11-09 19:19:43.563 -04:00 [INF] Solicitud entrante: GET /swagger/v1/swagger.json
+2024-11-09 19:19:43.766 -04:00 [INF] Respuesta: {
+  "openapi": "3.0.1",
+  "info": {
+    "title": "mi_feature.Api",
+    "version": "1.0"
+  },
+  "paths": {
+    "/mi-feature/api/v1/Poliza/ObtenerPoliza": {
+      "get": {
+        "tags": [
+          "Poliza"
+        ],
+        "parameters": [
+          {
+            "name": "poliza",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PolizaDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PolizaDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PolizaDto"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "PolizaDto": {
+        "type": "object",
+        "properties": {
+          "poliza": {
+            "type": "string",
+            "nullable": true
+          },
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ProblemDetails": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "nullable": true
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "detail": {
+            "type": "string",
+            "nullable": true
+          },
+          "instance": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": { }
+      }
+    }
+  }
+}
+2024-11-09 19:19:43.771 -04:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 207.4814 ms
+2024-11-09 19:19:43.772 -04:00 [DBG] Connection id "0HN812JUKBNEP" completed keep alive response.
+2024-11-09 19:19:43.773 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5107/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 213.7181ms
+2024-11-09 19:19:45.260 -04:00 [DBG] Connection id "0HN812JUKBNEP" received FIN.
+2024-11-09 19:19:45.261 -04:00 [DBG] Connection id "0HN812JUKBNEP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-09 19:19:45.262 -04:00 [DBG] Connection id "0HN812JUKBNEP" disconnecting.
+2024-11-09 19:19:45.264 -04:00 [DBG] Connection id "0HN812JUKBNEP" stopped.
+2024-11-09 19:20:40.509 -04:00 [DBG] Connection id "0HN812JUKBNEQ" accepted.
+2024-11-09 19:20:40.513 -04:00 [DBG] Connection id "0HN812JUKBNEQ" started.
+2024-11-09 19:20:40.515 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5107/mi-feature/api/v1/Poliza/ObtenerPoliza?poliza=54 - null null
+2024-11-09 19:20:40.520 -04:00 [DBG] 1 candidate(s) found for the request path '/mi-feature/api/v1/Poliza/ObtenerPoliza'
+2024-11-09 19:20:40.523 -04:00 [DBG] Endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)' with route pattern 'mi-feature/api/v1/Poliza/ObtenerPoliza' is valid for the request path '/mi-feature/api/v1/Poliza/ObtenerPoliza'
+2024-11-09 19:20:40.524 -04:00 [DBG] Request matched endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:20:40.526 -04:00 [INF] Solicitud entrante: GET /mi-feature/api/v1/Poliza/ObtenerPoliza
+2024-11-09 19:20:40.528 -04:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-09 19:20:40.529 -04:00 [WRN] Failed to determine the https port for redirect.
+2024-11-09 19:20:40.532 -04:00 [INF] Executing endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:20:40.559 -04:00 [INF] Route matched with {action = "ObtenerPoliza", controller = "Poliza"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPoliza(System.String) on controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api).
+2024-11-09 19:20:40.562 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-09 19:20:40.563 -04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-09 19:20:40.564 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-09 19:20:40.566 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-09 19:20:40.567 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-09 19:20:40.569 -04:00 [DBG] Executing controller factory for controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api)
+2024-11-09 19:20:40.570 -04:00 [DBG] Executed controller factory for controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api)
+2024-11-09 19:20:40.579 -04:00 [DBG] Attempting to bind parameter 'poliza' of type 'System.String' ...
+2024-11-09 19:20:40.582 -04:00 [DBG] Attempting to bind parameter 'poliza' of type 'System.String' using the name 'poliza' in request data ...
+2024-11-09 19:20:40.584 -04:00 [DBG] Done attempting to bind parameter 'poliza' of type 'System.String'.
+2024-11-09 19:20:40.585 -04:00 [DBG] Done attempting to bind parameter 'poliza' of type 'System.String'.
+2024-11-09 19:20:40.586 -04:00 [DBG] Attempting to validate the bound parameter 'poliza' of type 'System.String' ...
+2024-11-09 19:20:40.592 -04:00 [DBG] Done attempting to validate the bound parameter 'poliza' of type 'System.String'.
+2024-11-09 19:20:46.200 -04:00 [INF] Executed action mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api) in 5630.0637ms
+2024-11-09 19:20:46.203 -04:00 [INF] Executed endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:20:46.206 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+FluentValidation.ValidationException: Validation failed: 
+ -- Poliza: El número de póliza debe contener minimo 5 dígitos Severity: Error
+ -- Poliza: La póliza debe ser Salud Local. Severity: Error
+ -- Poliza: El número de póliza debe ser Individual. Severity: Error
+   at mi_feature.Api.Configurations.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\wilsoncampusano\source\repos\MiFeatureMicroservicio\mi_feature.Api\Configurations\ValidationBehavior.cs:line 29
+   at mi_feature.Api.Controllers.PolizaController.ObtenerPoliza(String poliza) in C:\Users\wilsoncampusano\source\repos\MiFeatureMicroservicio\mi_feature.Api\Controllers\PolizaController.cs:line 24
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-11-09 19:20:46.222 -04:00 [ERR] Una o las siguientes validaciones han fallado
+2024-11-09 19:20:46.238 -04:00 [INF] Respuesta: {"type":"mi_feature.Api","title":"Una o las siguientes validaciones han fallado","status":400,"instance":"/mi-feature/api/v1/Poliza/ObtenerPoliza","errors":["El número de póliza debe contener minimo 5 dígitos","La póliza debe ser Salud Local.","El número de póliza debe ser Individual."]}
+2024-11-09 19:20:46.240 -04:00 [INF] HTTP GET /mi-feature/api/v1/Poliza/ObtenerPoliza responded 400 in 5713.4802 ms
+2024-11-09 19:20:46.241 -04:00 [DBG] Connection id "0HN812JUKBNEQ" completed keep alive response.
+2024-11-09 19:20:46.242 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5107/mi-feature/api/v1/Poliza/ObtenerPoliza?poliza=54 - 400 null application/json; charset=utf-8 5727.1808ms
+2024-11-09 19:21:27.685 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5107/mi-feature/api/v1/Poliza/ObtenerPoliza?poliza=30354 - null null
+2024-11-09 19:21:27.688 -04:00 [DBG] 1 candidate(s) found for the request path '/mi-feature/api/v1/Poliza/ObtenerPoliza'
+2024-11-09 19:21:27.689 -04:00 [DBG] Endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)' with route pattern 'mi-feature/api/v1/Poliza/ObtenerPoliza' is valid for the request path '/mi-feature/api/v1/Poliza/ObtenerPoliza'
+2024-11-09 19:21:27.690 -04:00 [DBG] Request matched endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:21:27.691 -04:00 [INF] Solicitud entrante: GET /mi-feature/api/v1/Poliza/ObtenerPoliza
+2024-11-09 19:21:27.691 -04:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-09 19:21:27.692 -04:00 [INF] Executing endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:21:27.693 -04:00 [INF] Route matched with {action = "ObtenerPoliza", controller = "Poliza"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPoliza(System.String) on controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api).
+2024-11-09 19:21:27.694 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-09 19:21:27.695 -04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-09 19:21:27.697 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-09 19:21:27.698 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-09 19:21:27.699 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-09 19:21:27.700 -04:00 [DBG] Executing controller factory for controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api)
+2024-11-09 19:21:27.701 -04:00 [DBG] Executed controller factory for controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api)
+2024-11-09 19:21:27.703 -04:00 [DBG] Attempting to bind parameter 'poliza' of type 'System.String' ...
+2024-11-09 19:21:27.704 -04:00 [DBG] Attempting to bind parameter 'poliza' of type 'System.String' using the name 'poliza' in request data ...
+2024-11-09 19:21:27.705 -04:00 [DBG] Done attempting to bind parameter 'poliza' of type 'System.String'.
+2024-11-09 19:21:27.705 -04:00 [DBG] Done attempting to bind parameter 'poliza' of type 'System.String'.
+2024-11-09 19:21:27.706 -04:00 [DBG] Attempting to validate the bound parameter 'poliza' of type 'System.String' ...
+2024-11-09 19:21:27.708 -04:00 [DBG] Done attempting to validate the bound parameter 'poliza' of type 'System.String'.
+2024-11-09 19:21:27.742 -04:00 [INF] Executed action mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api) in 41.7576ms
+2024-11-09 19:21:27.743 -04:00 [INF] Executed endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:21:27.744 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+FluentValidation.ValidationException: Validation failed: 
+ -- Poliza: La póliza debe ser Salud Local. Severity: Error
+ -- Poliza: El número de póliza debe ser Individual. Severity: Error
+   at mi_feature.Api.Configurations.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\wilsoncampusano\source\repos\MiFeatureMicroservicio\mi_feature.Api\Configurations\ValidationBehavior.cs:line 29
+   at mi_feature.Api.Controllers.PolizaController.ObtenerPoliza(String poliza) in C:\Users\wilsoncampusano\source\repos\MiFeatureMicroservicio\mi_feature.Api\Controllers\PolizaController.cs:line 24
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-11-09 19:21:27.749 -04:00 [ERR] Una o las siguientes validaciones han fallado
+2024-11-09 19:21:27.750 -04:00 [INF] Respuesta: {"type":"mi_feature.Api","title":"Una o las siguientes validaciones han fallado","status":400,"instance":"/mi-feature/api/v1/Poliza/ObtenerPoliza","errors":["La póliza debe ser Salud Local.","El número de póliza debe ser Individual."]}
+2024-11-09 19:21:27.751 -04:00 [INF] HTTP GET /mi-feature/api/v1/Poliza/ObtenerPoliza responded 400 in 60.1794 ms
+2024-11-09 19:21:27.752 -04:00 [DBG] Connection id "0HN812JUKBNEQ" completed keep alive response.
+2024-11-09 19:21:27.755 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5107/mi-feature/api/v1/Poliza/ObtenerPoliza?poliza=30354 - 400 null application/json; charset=utf-8 70.297ms
+2024-11-09 19:21:36.450 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5107/mi-feature/api/v1/Poliza/ObtenerPoliza?poliza=30352 - null null
+2024-11-09 19:21:36.452 -04:00 [DBG] 1 candidate(s) found for the request path '/mi-feature/api/v1/Poliza/ObtenerPoliza'
+2024-11-09 19:21:36.453 -04:00 [DBG] Endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)' with route pattern 'mi-feature/api/v1/Poliza/ObtenerPoliza' is valid for the request path '/mi-feature/api/v1/Poliza/ObtenerPoliza'
+2024-11-09 19:21:36.455 -04:00 [DBG] Request matched endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:21:36.455 -04:00 [INF] Solicitud entrante: GET /mi-feature/api/v1/Poliza/ObtenerPoliza
+2024-11-09 19:21:36.456 -04:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-09 19:21:36.457 -04:00 [INF] Executing endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:21:36.458 -04:00 [INF] Route matched with {action = "ObtenerPoliza", controller = "Poliza"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPoliza(System.String) on controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api).
+2024-11-09 19:21:36.459 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-09 19:21:36.460 -04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-09 19:21:36.461 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-09 19:21:36.462 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-09 19:21:36.463 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-09 19:21:36.464 -04:00 [DBG] Executing controller factory for controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api)
+2024-11-09 19:21:36.465 -04:00 [DBG] Executed controller factory for controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api)
+2024-11-09 19:21:36.466 -04:00 [DBG] Attempting to bind parameter 'poliza' of type 'System.String' ...
+2024-11-09 19:21:36.467 -04:00 [DBG] Attempting to bind parameter 'poliza' of type 'System.String' using the name 'poliza' in request data ...
+2024-11-09 19:21:36.468 -04:00 [DBG] Done attempting to bind parameter 'poliza' of type 'System.String'.
+2024-11-09 19:21:36.469 -04:00 [DBG] Done attempting to bind parameter 'poliza' of type 'System.String'.
+2024-11-09 19:21:36.470 -04:00 [DBG] Attempting to validate the bound parameter 'poliza' of type 'System.String' ...
+2024-11-09 19:21:36.471 -04:00 [DBG] Done attempting to validate the bound parameter 'poliza' of type 'System.String'.
+2024-11-09 19:21:36.504 -04:00 [INF] Executed action mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api) in 40.1077ms
+2024-11-09 19:21:36.506 -04:00 [INF] Executed endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:21:36.507 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+FluentValidation.ValidationException: Validation failed: 
+ -- Poliza: La póliza debe ser Salud Local. Severity: Error
+ -- Poliza: El número de póliza debe ser Individual. Severity: Error
+   at mi_feature.Api.Configurations.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\wilsoncampusano\source\repos\MiFeatureMicroservicio\mi_feature.Api\Configurations\ValidationBehavior.cs:line 29
+   at mi_feature.Api.Controllers.PolizaController.ObtenerPoliza(String poliza) in C:\Users\wilsoncampusano\source\repos\MiFeatureMicroservicio\mi_feature.Api\Controllers\PolizaController.cs:line 24
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-11-09 19:21:36.511 -04:00 [ERR] Una o las siguientes validaciones han fallado
+2024-11-09 19:21:36.512 -04:00 [INF] Respuesta: {"type":"mi_feature.Api","title":"Una o las siguientes validaciones han fallado","status":400,"instance":"/mi-feature/api/v1/Poliza/ObtenerPoliza","errors":["La póliza debe ser Salud Local.","El número de póliza debe ser Individual."]}
+2024-11-09 19:21:36.513 -04:00 [INF] HTTP GET /mi-feature/api/v1/Poliza/ObtenerPoliza responded 400 in 57.3013 ms
+2024-11-09 19:21:36.514 -04:00 [DBG] Connection id "0HN812JUKBNEQ" completed keep alive response.
+2024-11-09 19:21:36.515 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5107/mi-feature/api/v1/Poliza/ObtenerPoliza?poliza=30352 - 400 null application/json; charset=utf-8 64.6661ms
+2024-11-09 19:21:51.955 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5107/mi-feature/api/v1/Poliza/ObtenerPoliza?poliza=30351 - null null
+2024-11-09 19:21:51.957 -04:00 [DBG] 1 candidate(s) found for the request path '/mi-feature/api/v1/Poliza/ObtenerPoliza'
+2024-11-09 19:21:51.958 -04:00 [DBG] Endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)' with route pattern 'mi-feature/api/v1/Poliza/ObtenerPoliza' is valid for the request path '/mi-feature/api/v1/Poliza/ObtenerPoliza'
+2024-11-09 19:21:51.960 -04:00 [DBG] Request matched endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:21:51.961 -04:00 [INF] Solicitud entrante: GET /mi-feature/api/v1/Poliza/ObtenerPoliza
+2024-11-09 19:21:51.961 -04:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-09 19:21:51.962 -04:00 [INF] Executing endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:21:51.963 -04:00 [INF] Route matched with {action = "ObtenerPoliza", controller = "Poliza"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPoliza(System.String) on controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api).
+2024-11-09 19:21:51.965 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-09 19:21:51.965 -04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-09 19:21:51.967 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-09 19:21:51.968 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-09 19:21:51.969 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-09 19:21:51.970 -04:00 [DBG] Executing controller factory for controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api)
+2024-11-09 19:21:51.971 -04:00 [DBG] Executed controller factory for controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api)
+2024-11-09 19:21:51.972 -04:00 [DBG] Attempting to bind parameter 'poliza' of type 'System.String' ...
+2024-11-09 19:21:51.973 -04:00 [DBG] Attempting to bind parameter 'poliza' of type 'System.String' using the name 'poliza' in request data ...
+2024-11-09 19:21:51.974 -04:00 [DBG] Done attempting to bind parameter 'poliza' of type 'System.String'.
+2024-11-09 19:21:51.975 -04:00 [DBG] Done attempting to bind parameter 'poliza' of type 'System.String'.
+2024-11-09 19:21:51.976 -04:00 [DBG] Attempting to validate the bound parameter 'poliza' of type 'System.String' ...
+2024-11-09 19:21:51.977 -04:00 [DBG] Done attempting to validate the bound parameter 'poliza' of type 'System.String'.
+2024-11-09 19:21:52.008 -04:00 [INF] Executed action mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api) in 38.3388ms
+2024-11-09 19:21:52.010 -04:00 [INF] Executed endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:21:52.011 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+FluentValidation.ValidationException: Validation failed: 
+ -- Poliza: La póliza debe ser Salud Local. Severity: Error
+ -- Poliza: El número de póliza debe ser Individual. Severity: Error
+   at mi_feature.Api.Configurations.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\wilsoncampusano\source\repos\MiFeatureMicroservicio\mi_feature.Api\Configurations\ValidationBehavior.cs:line 29
+   at mi_feature.Api.Controllers.PolizaController.ObtenerPoliza(String poliza) in C:\Users\wilsoncampusano\source\repos\MiFeatureMicroservicio\mi_feature.Api\Controllers\PolizaController.cs:line 24
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-11-09 19:21:52.015 -04:00 [ERR] Una o las siguientes validaciones han fallado
+2024-11-09 19:21:52.016 -04:00 [INF] Respuesta: {"type":"mi_feature.Api","title":"Una o las siguientes validaciones han fallado","status":400,"instance":"/mi-feature/api/v1/Poliza/ObtenerPoliza","errors":["La póliza debe ser Salud Local.","El número de póliza debe ser Individual."]}
+2024-11-09 19:21:52.017 -04:00 [INF] HTTP GET /mi-feature/api/v1/Poliza/ObtenerPoliza responded 400 in 55.9970 ms
+2024-11-09 19:21:52.018 -04:00 [DBG] Connection id "0HN812JUKBNEQ" completed keep alive response.
+2024-11-09 19:21:52.019 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5107/mi-feature/api/v1/Poliza/ObtenerPoliza?poliza=30351 - 400 null application/json; charset=utf-8 64.0016ms
+2024-11-09 19:22:04.292 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5107/mi-feature/api/v1/Poliza/ObtenerPoliza?poliza=30951 - null null
+2024-11-09 19:22:04.295 -04:00 [DBG] 1 candidate(s) found for the request path '/mi-feature/api/v1/Poliza/ObtenerPoliza'
+2024-11-09 19:22:04.296 -04:00 [DBG] Endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)' with route pattern 'mi-feature/api/v1/Poliza/ObtenerPoliza' is valid for the request path '/mi-feature/api/v1/Poliza/ObtenerPoliza'
+2024-11-09 19:22:04.297 -04:00 [DBG] Request matched endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:22:04.298 -04:00 [INF] Solicitud entrante: GET /mi-feature/api/v1/Poliza/ObtenerPoliza
+2024-11-09 19:22:04.298 -04:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-09 19:22:04.299 -04:00 [INF] Executing endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:22:04.300 -04:00 [INF] Route matched with {action = "ObtenerPoliza", controller = "Poliza"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPoliza(System.String) on controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api).
+2024-11-09 19:22:04.301 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-09 19:22:04.302 -04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-09 19:22:04.303 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-09 19:22:04.304 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-09 19:22:04.305 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-09 19:22:04.307 -04:00 [DBG] Executing controller factory for controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api)
+2024-11-09 19:22:04.308 -04:00 [DBG] Executed controller factory for controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api)
+2024-11-09 19:22:04.309 -04:00 [DBG] Attempting to bind parameter 'poliza' of type 'System.String' ...
+2024-11-09 19:22:04.310 -04:00 [DBG] Attempting to bind parameter 'poliza' of type 'System.String' using the name 'poliza' in request data ...
+2024-11-09 19:22:04.311 -04:00 [DBG] Done attempting to bind parameter 'poliza' of type 'System.String'.
+2024-11-09 19:22:04.312 -04:00 [DBG] Done attempting to bind parameter 'poliza' of type 'System.String'.
+2024-11-09 19:22:04.313 -04:00 [DBG] Attempting to validate the bound parameter 'poliza' of type 'System.String' ...
+2024-11-09 19:22:04.314 -04:00 [DBG] Done attempting to validate the bound parameter 'poliza' of type 'System.String'.
+2024-11-09 19:23:36.988 -04:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-11-09 19:23:37.061 -04:00 [DBG] Hosting starting
+2024-11-09 19:23:37.164 -04:00 [INF] Now listening on: http://localhost:5107
+2024-11-09 19:23:37.165 -04:00 [DBG] Loaded hosting startup assembly mi_feature.Api
+2024-11-09 19:23:37.165 -04:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-11-09 19:23:37.166 -04:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-11-09 19:23:37.167 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-09 19:23:37.167 -04:00 [INF] Hosting environment: Development
+2024-11-09 19:23:37.168 -04:00 [INF] Content root path: C:\Users\wilsoncampusano\source\repos\MiFeatureMicroservicio\mi_feature.Api
+2024-11-09 19:23:37.168 -04:00 [DBG] Hosting started
+2024-11-09 19:23:40.486 -04:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-11-09 19:23:40.558 -04:00 [DBG] Hosting starting
+2024-11-09 19:23:40.660 -04:00 [INF] Now listening on: http://localhost:5107
+2024-11-09 19:23:40.661 -04:00 [DBG] Loaded hosting startup assembly mi_feature.Api
+2024-11-09 19:23:40.662 -04:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-11-09 19:23:40.662 -04:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-11-09 19:23:40.663 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-09 19:23:40.664 -04:00 [INF] Hosting environment: Development
+2024-11-09 19:23:40.664 -04:00 [INF] Content root path: C:\Users\wilsoncampusano\source\repos\MiFeatureMicroservicio\mi_feature.Api
+2024-11-09 19:23:40.665 -04:00 [DBG] Hosting started
+2024-11-09 19:23:41.111 -04:00 [DBG] Connection id "0HN812M5VSABR" accepted.
+2024-11-09 19:23:41.111 -04:00 [DBG] Connection id "0HN812M5VSABS" accepted.
+2024-11-09 19:23:41.118 -04:00 [DBG] Connection id "0HN812M5VSABS" received FIN.
+2024-11-09 19:23:41.118 -04:00 [DBG] Connection id "0HN812M5VSABR" received FIN.
+2024-11-09 19:23:41.118 -04:00 [DBG] Connection id "0HN812M5VSABR" started.
+2024-11-09 19:23:41.118 -04:00 [DBG] Connection id "0HN812M5VSABS" started.
+2024-11-09 19:23:41.126 -04:00 [DBG] Connection id "0HN812M5VSABR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-09 19:23:41.126 -04:00 [DBG] Connection id "0HN812M5VSABS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-09 19:23:41.128 -04:00 [DBG] Connection id "0HN812M5VSABR" disconnecting.
+2024-11-09 19:23:41.129 -04:00 [DBG] Connection id "0HN812M5VSABS" disconnecting.
+2024-11-09 19:23:41.131 -04:00 [DBG] Connection id "0HN812M5VSABS" stopped.
+2024-11-09 19:23:41.131 -04:00 [DBG] Connection id "0HN812M5VSABR" stopped.
+2024-11-09 19:23:43.480 -04:00 [DBG] Connection id "0HN812M5VSABT" accepted.
+2024-11-09 19:23:43.482 -04:00 [DBG] Connection id "0HN812M5VSABT" started.
+2024-11-09 19:23:43.525 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5107/swagger/index.html - null null
+2024-11-09 19:23:43.564 -04:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-11-09 19:23:43.577 -04:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-11-09 19:23:43.578 -04:00 [DBG] Request did not match any endpoints
+2024-11-09 19:23:43.583 -04:00 [INF] Solicitud entrante: GET /swagger/index.html
+2024-11-09 19:23:43.639 -04:00 [INF] Respuesta: <!-- HTML for static distribution bundle build -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Swagger UI</title>
+    <link rel="stylesheet" type="text/css" href="./swagger-ui.css">
+    <link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16" />
+    <style>
+
+        html {
+            box-sizing: border-box;
+            overflow: -moz-scrollbars-vertical;
+            overflow-y: scroll;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        body {
+            margin: 0;
+            background: #fafafa;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <div id="swagger-ui"></div>
+
+    <!-- Workaround for https://github.com/swagger-api/swagger-editor/issues/1371 -->
+    <script>
+        if (window.navigator.userAgent.indexOf("Edge") > -1) {
+            console.log("Removing native Edge fetch in favor of swagger-ui's polyfill")
+            window.fetch = undefined;
+        }
+    </script>
+
+    <script src="./swagger-ui-bundle.js"></script>
+    <script src="./swagger-ui-standalone-preset.js"></script>
+    <script>
+        /* Source: https://gist.github.com/lamberta/3768814
+         * Parse a string function definition and return a function object. Does not use eval.
+         * @param {string} str
+         * @return {function}
+         *
+         * Example:
+         *  var f = function (x, y) { return x * y; };
+         *  var g = parseFunction(f.toString());
+         *  g(33, 3); //=> 99
+         */
+        function parseFunction(str) {
+            if (!str) return void (0);
+
+            var fn_body_idx = str.indexOf('{'),
+                fn_body = str.substring(fn_body_idx + 1, str.lastIndexOf('}')),
+                fn_declare = str.substring(0, fn_body_idx),
+                fn_params = fn_declare.substring(fn_declare.indexOf('(') + 1, fn_declare.lastIndexOf(')')),
+                args = fn_params.split(',');
+
+            args.push(fn_body);
+
+            function Fn() {
+                return Function.apply(this, args);
+            }
+            Fn.prototype = Function.prototype;
+
+            return new Fn();
+        }
+
+        window.onload = function () {
+            var configObject = JSON.parse('{"urls":[{"url":"/swagger/v1/swagger.json","name":"Mi API V1"}],"deepLinking":false,"persistAuthorization":false,"displayOperationId":false,"defaultModelsExpandDepth":1,"defaultModelExpandDepth":1,"defaultModelRendering":"example","displayRequestDuration":false,"docExpansion":"list","showExtensions":false,"showCommonExtensions":false,"supportedSubmitMethods":["get","put","post","delete","options","head","patch","trace"],"tryItOutEnabled":false}');
+            var oauthConfigObject = JSON.parse('{"scopeSeparator":" ","scopes":[],"useBasicAuthenticationWithAccessCodeGrant":false,"usePkceWithAuthorizationCodeGrant":false}');
+
+            // Workaround for https://github.com/swagger-api/swagger-ui/issues/5945
+            configObject.urls.forEach(function (item) {
+                if (item.url.startsWith("http") || item.url.startsWith("/")) return;
+                item.url = window.location.href.replace("index.html", item.url).split('#')[0];
+            });
+
+            // If validatorUrl is not explicitly provided, disable the feature by setting to null
+            if (!configObject.hasOwnProperty("validatorUrl"))
+                configObject.validatorUrl = null
+
+            // If oauth2RedirectUrl isn't specified, use the built-in default
+            if (!configObject.hasOwnProperty("oauth2RedirectUrl"))
+                configObject.oauth2RedirectUrl = (new URL("oauth2-redirect.html", window.location.href)).href;
+
+            // Apply mandatory parameters
+            configObject.dom_id = "#swagger-ui";
+            configObject.presets = [SwaggerUIBundle.presets.apis, SwaggerUIStandalonePreset];
+            configObject.layout = "StandaloneLayout";
+
+            // Parse and add interceptor functions
+            var interceptors = JSON.parse('{"RequestInterceptorFunction":null,"ResponseInterceptorFunction":null}');
+            if (interceptors.RequestInterceptorFunction)
+                configObject.requestInterceptor = parseFunction(interceptors.RequestInterceptorFunction);
+            if (interceptors.ResponseInterceptorFunction)
+                configObject.responseInterceptor = parseFunction(interceptors.ResponseInterceptorFunction);
+
+            // Begin Swagger UI call region
+
+            const ui = SwaggerUIBundle(configObject);
+
+            ui.initOAuth(oauthConfigObject);
+
+            // End Swagger UI call region
+
+            window.ui = ui
+        }
+    </script>
+</body>
+</html>
+
+2024-11-09 19:23:43.645 -04:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-11-09 19:23:43.649 -04:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-11-09 19:23:43.662 -04:00 [INF] HTTP GET /swagger/index.html responded 200 in 78.8568 ms
+2024-11-09 19:23:43.664 -04:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-11-09 19:23:43.665 -04:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-11-09 19:23:43.666 -04:00 [DBG] Connection id "0HN812M5VSABT" completed keep alive response.
+2024-11-09 19:23:43.669 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5107/swagger/index.html - 200 null text/html;charset=utf-8 148.2073ms
+2024-11-09 19:23:43.683 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5107/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-09 19:23:43.689 -04:00 [DBG] Connection id "0HN812M5VSABT" completed keep alive response.
+2024-11-09 19:23:43.691 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5107/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 8.0535ms
+2024-11-09 19:23:44.211 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5107/_vs/browserLink - null null
+2024-11-09 19:23:44.244 -04:00 [DBG] Connection id "0HN812M5VSABT" completed keep alive response.
+2024-11-09 19:23:44.245 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5107/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.6549ms
+2024-11-09 19:23:44.546 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5107/swagger/v1/swagger.json - null null
+2024-11-09 19:23:44.548 -04:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-11-09 19:23:44.549 -04:00 [DBG] Request did not match any endpoints
+2024-11-09 19:23:44.550 -04:00 [INF] Solicitud entrante: GET /swagger/v1/swagger.json
+2024-11-09 19:23:44.641 -04:00 [INF] Respuesta: {
+  "openapi": "3.0.1",
+  "info": {
+    "title": "mi_feature.Api",
+    "version": "1.0"
+  },
+  "paths": {
+    "/mi-feature/api/v1/Poliza/ObtenerPoliza": {
+      "get": {
+        "tags": [
+          "Poliza"
+        ],
+        "parameters": [
+          {
+            "name": "poliza",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PolizaDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PolizaDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PolizaDto"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "PolizaDto": {
+        "type": "object",
+        "properties": {
+          "poliza": {
+            "type": "string",
+            "nullable": true
+          },
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ProblemDetails": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "nullable": true
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "detail": {
+            "type": "string",
+            "nullable": true
+          },
+          "instance": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": { }
+      }
+    }
+  }
+}
+2024-11-09 19:23:44.645 -04:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 94.8039 ms
+2024-11-09 19:23:44.646 -04:00 [DBG] Connection id "0HN812M5VSABT" completed keep alive response.
+2024-11-09 19:23:44.647 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5107/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 100.9303ms
+2024-11-09 19:23:45.602 -04:00 [DBG] Connection id "0HN812M5VSABT" received FIN.
+2024-11-09 19:23:45.603 -04:00 [DBG] Connection id "0HN812M5VSABT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-09 19:23:45.604 -04:00 [DBG] Connection id "0HN812M5VSABT" disconnecting.
+2024-11-09 19:23:45.606 -04:00 [DBG] Connection id "0HN812M5VSABT" stopped.
+2024-11-09 19:23:55.676 -04:00 [DBG] Connection id "0HN812M5VSABU" accepted.
+2024-11-09 19:23:55.678 -04:00 [DBG] Connection id "0HN812M5VSABU" started.
+2024-11-09 19:23:55.679 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5107/mi-feature/api/v1/Poliza/ObtenerPoliza?poliza=30951 - null null
+2024-11-09 19:23:55.684 -04:00 [DBG] 1 candidate(s) found for the request path '/mi-feature/api/v1/Poliza/ObtenerPoliza'
+2024-11-09 19:23:55.686 -04:00 [DBG] Endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)' with route pattern 'mi-feature/api/v1/Poliza/ObtenerPoliza' is valid for the request path '/mi-feature/api/v1/Poliza/ObtenerPoliza'
+2024-11-09 19:23:55.688 -04:00 [DBG] Request matched endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:23:55.690 -04:00 [INF] Solicitud entrante: GET /mi-feature/api/v1/Poliza/ObtenerPoliza
+2024-11-09 19:23:55.691 -04:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-09 19:23:55.692 -04:00 [WRN] Failed to determine the https port for redirect.
+2024-11-09 19:23:55.695 -04:00 [INF] Executing endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:23:55.714 -04:00 [INF] Route matched with {action = "ObtenerPoliza", controller = "Poliza"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPoliza(System.String) on controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api).
+2024-11-09 19:23:55.716 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-09 19:23:55.717 -04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-09 19:23:55.718 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-09 19:23:55.720 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-09 19:23:55.721 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-09 19:23:55.724 -04:00 [DBG] Executing controller factory for controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api)
+2024-11-09 19:23:55.725 -04:00 [DBG] Executed controller factory for controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api)
+2024-11-09 19:23:55.730 -04:00 [DBG] Attempting to bind parameter 'poliza' of type 'System.String' ...
+2024-11-09 19:23:55.733 -04:00 [DBG] Attempting to bind parameter 'poliza' of type 'System.String' using the name 'poliza' in request data ...
+2024-11-09 19:23:55.735 -04:00 [DBG] Done attempting to bind parameter 'poliza' of type 'System.String'.
+2024-11-09 19:23:55.736 -04:00 [DBG] Done attempting to bind parameter 'poliza' of type 'System.String'.
+2024-11-09 19:23:55.737 -04:00 [DBG] Attempting to validate the bound parameter 'poliza' of type 'System.String' ...
+2024-11-09 19:23:55.741 -04:00 [DBG] Done attempting to validate the bound parameter 'poliza' of type 'System.String'.
+2024-11-09 19:23:55.771 -04:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-09 19:23:55.774 -04:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-11-09 19:23:55.776 -04:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-11-09 19:23:55.777 -04:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-09 19:23:55.778 -04:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-09 19:23:55.779 -04:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-09 19:23:55.781 -04:00 [INF] Executing OkObjectResult, writing value of type 'App.DTOs.PolizaDto'.
+2024-11-09 19:23:55.787 -04:00 [INF] Executed action mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api) in 62.7563ms
+2024-11-09 19:23:55.788 -04:00 [INF] Executed endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:23:55.789 -04:00 [INF] Respuesta: {"poliza":"30951","nombre":null}
+2024-11-09 19:23:55.790 -04:00 [INF] HTTP GET /mi-feature/api/v1/Poliza/ObtenerPoliza responded 200 in 100.0469 ms
+2024-11-09 19:23:55.791 -04:00 [DBG] Connection id "0HN812M5VSABU" completed keep alive response.
+2024-11-09 19:23:55.792 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5107/mi-feature/api/v1/Poliza/ObtenerPoliza?poliza=30951 - 200 null application/json; charset=utf-8 112.9028ms
+2024-11-09 19:24:04.001 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5107/mi-feature/api/v1/Poliza/ObtenerPoliza?poliza=30952 - null null
+2024-11-09 19:24:04.004 -04:00 [DBG] 1 candidate(s) found for the request path '/mi-feature/api/v1/Poliza/ObtenerPoliza'
+2024-11-09 19:24:04.004 -04:00 [DBG] Endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)' with route pattern 'mi-feature/api/v1/Poliza/ObtenerPoliza' is valid for the request path '/mi-feature/api/v1/Poliza/ObtenerPoliza'
+2024-11-09 19:24:04.006 -04:00 [DBG] Request matched endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:24:04.006 -04:00 [INF] Solicitud entrante: GET /mi-feature/api/v1/Poliza/ObtenerPoliza
+2024-11-09 19:24:04.007 -04:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-09 19:24:04.008 -04:00 [INF] Executing endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:24:04.008 -04:00 [INF] Route matched with {action = "ObtenerPoliza", controller = "Poliza"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPoliza(System.String) on controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api).
+2024-11-09 19:24:04.010 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-09 19:24:04.011 -04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-09 19:24:04.012 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-09 19:24:04.013 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-09 19:24:04.014 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-09 19:24:04.016 -04:00 [DBG] Executing controller factory for controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api)
+2024-11-09 19:24:04.017 -04:00 [DBG] Executed controller factory for controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api)
+2024-11-09 19:24:04.018 -04:00 [DBG] Attempting to bind parameter 'poliza' of type 'System.String' ...
+2024-11-09 19:24:04.019 -04:00 [DBG] Attempting to bind parameter 'poliza' of type 'System.String' using the name 'poliza' in request data ...
+2024-11-09 19:24:04.021 -04:00 [DBG] Done attempting to bind parameter 'poliza' of type 'System.String'.
+2024-11-09 19:24:04.022 -04:00 [DBG] Done attempting to bind parameter 'poliza' of type 'System.String'.
+2024-11-09 19:24:04.022 -04:00 [DBG] Attempting to validate the bound parameter 'poliza' of type 'System.String' ...
+2024-11-09 19:24:04.024 -04:00 [DBG] Done attempting to validate the bound parameter 'poliza' of type 'System.String'.
+2024-11-09 19:24:04.091 -04:00 [INF] Executed action mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api) in 75.1553ms
+2024-11-09 19:24:04.092 -04:00 [INF] Executed endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:24:04.095 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+FluentValidation.ValidationException: Validation failed: 
+ -- Poliza: El número de póliza no puede ser Colectiva. Severity: Error
+ -- Poliza: El número de póliza debe ser Individual. Severity: Error
+   at mi_feature.Api.Configurations.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\wilsoncampusano\source\repos\MiFeatureMicroservicio\mi_feature.Api\Configurations\ValidationBehavior.cs:line 29
+   at mi_feature.Api.Controllers.PolizaController.ObtenerPoliza(String poliza) in C:\Users\wilsoncampusano\source\repos\MiFeatureMicroservicio\mi_feature.Api\Controllers\PolizaController.cs:line 24
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-11-09 19:24:04.104 -04:00 [ERR] Una o las siguientes validaciones han fallado
+2024-11-09 19:24:04.112 -04:00 [INF] Respuesta: {"type":"mi_feature.Api","title":"Una o las siguientes validaciones han fallado","status":400,"instance":"/mi-feature/api/v1/Poliza/ObtenerPoliza","errors":["El número de póliza no puede ser Colectiva.","El número de póliza debe ser Individual."]}
+2024-11-09 19:24:04.113 -04:00 [INF] HTTP GET /mi-feature/api/v1/Poliza/ObtenerPoliza responded 400 in 106.8575 ms
+2024-11-09 19:24:04.114 -04:00 [DBG] Connection id "0HN812M5VSABU" completed keep alive response.
+2024-11-09 19:24:04.115 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5107/mi-feature/api/v1/Poliza/ObtenerPoliza?poliza=30952 - 400 null application/json; charset=utf-8 114.3365ms
+2024-11-09 19:24:05.608 -04:00 [DBG] Connection id "0HN812M5VSABU" received FIN.
+2024-11-09 19:24:05.609 -04:00 [DBG] Connection id "0HN812M5VSABU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-09 19:24:05.611 -04:00 [DBG] Connection id "0HN812M5VSABU" disconnecting.
+2024-11-09 19:24:05.612 -04:00 [DBG] Connection id "0HN812M5VSABU" stopped.
+2024-11-09 19:24:12.309 -04:00 [DBG] Connection id "0HN812M5VSABV" accepted.
+2024-11-09 19:24:12.310 -04:00 [DBG] Connection id "0HN812M5VSABV" started.
+2024-11-09 19:24:12.312 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5107/mi-feature/api/v1/Poliza/ObtenerPoliza?poliza=30953 - null null
+2024-11-09 19:24:12.313 -04:00 [DBG] 1 candidate(s) found for the request path '/mi-feature/api/v1/Poliza/ObtenerPoliza'
+2024-11-09 19:24:12.314 -04:00 [DBG] Endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)' with route pattern 'mi-feature/api/v1/Poliza/ObtenerPoliza' is valid for the request path '/mi-feature/api/v1/Poliza/ObtenerPoliza'
+2024-11-09 19:24:12.315 -04:00 [DBG] Request matched endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:24:12.316 -04:00 [INF] Solicitud entrante: GET /mi-feature/api/v1/Poliza/ObtenerPoliza
+2024-11-09 19:24:12.317 -04:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-09 19:24:12.317 -04:00 [INF] Executing endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:24:12.318 -04:00 [INF] Route matched with {action = "ObtenerPoliza", controller = "Poliza"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPoliza(System.String) on controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api).
+2024-11-09 19:24:12.319 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-09 19:24:12.321 -04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-09 19:24:12.322 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-09 19:24:12.323 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-09 19:24:12.324 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-09 19:24:12.325 -04:00 [DBG] Executing controller factory for controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api)
+2024-11-09 19:24:12.326 -04:00 [DBG] Executed controller factory for controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api)
+2024-11-09 19:24:12.327 -04:00 [DBG] Attempting to bind parameter 'poliza' of type 'System.String' ...
+2024-11-09 19:24:12.328 -04:00 [DBG] Attempting to bind parameter 'poliza' of type 'System.String' using the name 'poliza' in request data ...
+2024-11-09 19:24:12.329 -04:00 [DBG] Done attempting to bind parameter 'poliza' of type 'System.String'.
+2024-11-09 19:24:12.330 -04:00 [DBG] Done attempting to bind parameter 'poliza' of type 'System.String'.
+2024-11-09 19:24:12.331 -04:00 [DBG] Attempting to validate the bound parameter 'poliza' of type 'System.String' ...
+2024-11-09 19:24:12.332 -04:00 [DBG] Done attempting to validate the bound parameter 'poliza' of type 'System.String'.
+2024-11-09 19:24:12.336 -04:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-09 19:24:12.338 -04:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-11-09 19:24:12.339 -04:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-11-09 19:24:12.340 -04:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-09 19:24:12.341 -04:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-09 19:24:12.341 -04:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-09 19:24:12.342 -04:00 [INF] Executing NotFoundObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-11-09 19:24:12.345 -04:00 [INF] Executed action mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api) in 20.1611ms
+2024-11-09 19:24:12.346 -04:00 [INF] Executed endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:24:12.347 -04:00 [INF] Respuesta: {"message":"Número de poliza no encontrada."}
+2024-11-09 19:24:12.348 -04:00 [INF] HTTP GET /mi-feature/api/v1/Poliza/ObtenerPoliza responded 404 in 31.7126 ms
+2024-11-09 19:24:12.349 -04:00 [DBG] Connection id "0HN812M5VSABV" completed keep alive response.
+2024-11-09 19:24:12.350 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5107/mi-feature/api/v1/Poliza/ObtenerPoliza?poliza=30953 - 404 null application/json; charset=utf-8 38.387ms
+2024-11-09 19:24:15.623 -04:00 [DBG] Connection id "0HN812M5VSABV" received FIN.
+2024-11-09 19:24:15.625 -04:00 [DBG] Connection id "0HN812M5VSABV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-09 19:24:15.626 -04:00 [DBG] Connection id "0HN812M5VSABV" disconnecting.
+2024-11-09 19:24:15.627 -04:00 [DBG] Connection id "0HN812M5VSABV" stopped.
+2024-11-09 19:24:34.583 -04:00 [DBG] Connection id "0HN812M5VSAC0" accepted.
+2024-11-09 19:24:34.585 -04:00 [DBG] Connection id "0HN812M5VSAC0" started.
+2024-11-09 19:24:34.586 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5107/mi-feature/api/v1/Poliza/ObtenerPoliza?poliza=30951 - null null
+2024-11-09 19:24:34.588 -04:00 [DBG] 1 candidate(s) found for the request path '/mi-feature/api/v1/Poliza/ObtenerPoliza'
+2024-11-09 19:24:34.589 -04:00 [DBG] Endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)' with route pattern 'mi-feature/api/v1/Poliza/ObtenerPoliza' is valid for the request path '/mi-feature/api/v1/Poliza/ObtenerPoliza'
+2024-11-09 19:24:34.590 -04:00 [DBG] Request matched endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:24:34.591 -04:00 [INF] Solicitud entrante: GET /mi-feature/api/v1/Poliza/ObtenerPoliza
+2024-11-09 19:24:34.592 -04:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-09 19:24:34.592 -04:00 [INF] Executing endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:24:34.593 -04:00 [INF] Route matched with {action = "ObtenerPoliza", controller = "Poliza"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPoliza(System.String) on controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api).
+2024-11-09 19:24:34.594 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-09 19:24:34.595 -04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-09 19:24:34.596 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-09 19:24:34.598 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-09 19:24:34.599 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-09 19:24:34.600 -04:00 [DBG] Executing controller factory for controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api)
+2024-11-09 19:24:34.601 -04:00 [DBG] Executed controller factory for controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api)
+2024-11-09 19:24:34.603 -04:00 [DBG] Attempting to bind parameter 'poliza' of type 'System.String' ...
+2024-11-09 19:24:34.604 -04:00 [DBG] Attempting to bind parameter 'poliza' of type 'System.String' using the name 'poliza' in request data ...
+2024-11-09 19:24:34.605 -04:00 [DBG] Done attempting to bind parameter 'poliza' of type 'System.String'.
+2024-11-09 19:24:34.606 -04:00 [DBG] Done attempting to bind parameter 'poliza' of type 'System.String'.
+2024-11-09 19:24:34.607 -04:00 [DBG] Attempting to validate the bound parameter 'poliza' of type 'System.String' ...
+2024-11-09 19:24:34.608 -04:00 [DBG] Done attempting to validate the bound parameter 'poliza' of type 'System.String'.
+2024-11-09 19:24:34.609 -04:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-09 19:24:34.611 -04:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-11-09 19:24:34.612 -04:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-11-09 19:24:34.613 -04:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-09 19:24:34.614 -04:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-09 19:24:34.614 -04:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-09 19:24:34.615 -04:00 [INF] Executing OkObjectResult, writing value of type 'App.DTOs.PolizaDto'.
+2024-11-09 19:24:34.617 -04:00 [INF] Executed action mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api) in 16.5451ms
+2024-11-09 19:24:34.618 -04:00 [INF] Executed endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:24:34.619 -04:00 [INF] Respuesta: {"poliza":"30951","nombre":null}
+2024-11-09 19:24:34.619 -04:00 [INF] HTTP GET /mi-feature/api/v1/Poliza/ObtenerPoliza responded 200 in 28.5251 ms
+2024-11-09 19:24:34.621 -04:00 [DBG] Connection id "0HN812M5VSAC0" completed keep alive response.
+2024-11-09 19:24:34.622 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5107/mi-feature/api/v1/Poliza/ObtenerPoliza?poliza=30951 - 200 null application/json; charset=utf-8 35.6615ms
+2024-11-09 19:24:35.664 -04:00 [DBG] Connection id "0HN812M5VSAC0" received FIN.
+2024-11-09 19:24:35.665 -04:00 [DBG] Connection id "0HN812M5VSAC0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-09 19:24:35.667 -04:00 [DBG] Connection id "0HN812M5VSAC0" disconnecting.
+2024-11-09 19:24:35.668 -04:00 [DBG] Connection id "0HN812M5VSAC0" stopped.
+2024-11-09 19:24:40.522 -04:00 [DBG] Connection id "0HN812M5VSAC1" accepted.
+2024-11-09 19:24:40.523 -04:00 [DBG] Connection id "0HN812M5VSAC1" started.
+2024-11-09 19:24:40.525 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5107/mi-feature/api/v1/Poliza/ObtenerPoliza?poliza=30952 - null null
+2024-11-09 19:24:40.528 -04:00 [DBG] 1 candidate(s) found for the request path '/mi-feature/api/v1/Poliza/ObtenerPoliza'
+2024-11-09 19:24:40.530 -04:00 [DBG] Endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)' with route pattern 'mi-feature/api/v1/Poliza/ObtenerPoliza' is valid for the request path '/mi-feature/api/v1/Poliza/ObtenerPoliza'
+2024-11-09 19:24:40.531 -04:00 [DBG] Request matched endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:24:40.534 -04:00 [INF] Solicitud entrante: GET /mi-feature/api/v1/Poliza/ObtenerPoliza
+2024-11-09 19:24:40.535 -04:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-09 19:24:40.536 -04:00 [INF] Executing endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:24:40.537 -04:00 [INF] Route matched with {action = "ObtenerPoliza", controller = "Poliza"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPoliza(System.String) on controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api).
+2024-11-09 19:24:40.538 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-09 19:24:40.539 -04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-09 19:24:40.540 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-09 19:24:40.542 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-09 19:24:40.543 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-09 19:24:40.544 -04:00 [DBG] Executing controller factory for controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api)
+2024-11-09 19:24:40.545 -04:00 [DBG] Executed controller factory for controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api)
+2024-11-09 19:24:40.546 -04:00 [DBG] Attempting to bind parameter 'poliza' of type 'System.String' ...
+2024-11-09 19:24:40.547 -04:00 [DBG] Attempting to bind parameter 'poliza' of type 'System.String' using the name 'poliza' in request data ...
+2024-11-09 19:24:40.548 -04:00 [DBG] Done attempting to bind parameter 'poliza' of type 'System.String'.
+2024-11-09 19:24:40.549 -04:00 [DBG] Done attempting to bind parameter 'poliza' of type 'System.String'.
+2024-11-09 19:24:40.550 -04:00 [DBG] Attempting to validate the bound parameter 'poliza' of type 'System.String' ...
+2024-11-09 19:24:40.551 -04:00 [DBG] Done attempting to validate the bound parameter 'poliza' of type 'System.String'.
+2024-11-09 19:24:40.596 -04:00 [INF] Executed action mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api) in 51.9203ms
+2024-11-09 19:24:40.597 -04:00 [INF] Executed endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:24:40.599 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+FluentValidation.ValidationException: Validation failed: 
+ -- Poliza: El número de póliza no puede ser Colectiva. Severity: Error
+ -- Poliza: El número de póliza debe ser Individual. Severity: Error
+   at mi_feature.Api.Configurations.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\wilsoncampusano\source\repos\MiFeatureMicroservicio\mi_feature.Api\Configurations\ValidationBehavior.cs:line 29
+   at mi_feature.Api.Controllers.PolizaController.ObtenerPoliza(String poliza) in C:\Users\wilsoncampusano\source\repos\MiFeatureMicroservicio\mi_feature.Api\Controllers\PolizaController.cs:line 24
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-11-09 19:24:40.604 -04:00 [ERR] Una o las siguientes validaciones han fallado
+2024-11-09 19:24:40.604 -04:00 [INF] Respuesta: {"type":"mi_feature.Api","title":"Una o las siguientes validaciones han fallado","status":400,"instance":"/mi-feature/api/v1/Poliza/ObtenerPoliza","errors":["El número de póliza no puede ser Colectiva.","El número de póliza debe ser Individual."]}
+2024-11-09 19:24:40.605 -04:00 [INF] HTTP GET /mi-feature/api/v1/Poliza/ObtenerPoliza responded 400 in 71.6157 ms
+2024-11-09 19:24:40.607 -04:00 [DBG] Connection id "0HN812M5VSAC1" completed keep alive response.
+2024-11-09 19:24:40.608 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5107/mi-feature/api/v1/Poliza/ObtenerPoliza?poliza=30952 - 400 null application/json; charset=utf-8 82.4501ms
+2024-11-09 19:24:45.668 -04:00 [DBG] Connection id "0HN812M5VSAC1" received FIN.
+2024-11-09 19:24:45.669 -04:00 [DBG] Connection id "0HN812M5VSAC1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-09 19:24:45.670 -04:00 [DBG] Connection id "0HN812M5VSAC1" disconnecting.
+2024-11-09 19:24:45.671 -04:00 [DBG] Connection id "0HN812M5VSAC1" stopped.
+2024-11-09 19:24:50.369 -04:00 [DBG] Connection id "0HN812M5VSAC2" accepted.
+2024-11-09 19:24:50.370 -04:00 [DBG] Connection id "0HN812M5VSAC2" started.
+2024-11-09 19:24:50.371 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5107/mi-feature/api/v1/Poliza/ObtenerPoliza?poliza=30953 - null null
+2024-11-09 19:24:50.373 -04:00 [DBG] 1 candidate(s) found for the request path '/mi-feature/api/v1/Poliza/ObtenerPoliza'
+2024-11-09 19:24:50.374 -04:00 [DBG] Endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)' with route pattern 'mi-feature/api/v1/Poliza/ObtenerPoliza' is valid for the request path '/mi-feature/api/v1/Poliza/ObtenerPoliza'
+2024-11-09 19:24:50.375 -04:00 [DBG] Request matched endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:24:50.376 -04:00 [INF] Solicitud entrante: GET /mi-feature/api/v1/Poliza/ObtenerPoliza
+2024-11-09 19:24:50.377 -04:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-09 19:24:50.378 -04:00 [INF] Executing endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:24:50.379 -04:00 [INF] Route matched with {action = "ObtenerPoliza", controller = "Poliza"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPoliza(System.String) on controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api).
+2024-11-09 19:24:50.380 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-09 19:24:50.381 -04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-09 19:24:50.382 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-09 19:24:50.383 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-09 19:24:50.384 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-09 19:24:50.385 -04:00 [DBG] Executing controller factory for controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api)
+2024-11-09 19:24:50.386 -04:00 [DBG] Executed controller factory for controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api)
+2024-11-09 19:24:50.388 -04:00 [DBG] Attempting to bind parameter 'poliza' of type 'System.String' ...
+2024-11-09 19:24:50.389 -04:00 [DBG] Attempting to bind parameter 'poliza' of type 'System.String' using the name 'poliza' in request data ...
+2024-11-09 19:24:50.390 -04:00 [DBG] Done attempting to bind parameter 'poliza' of type 'System.String'.
+2024-11-09 19:24:50.391 -04:00 [DBG] Done attempting to bind parameter 'poliza' of type 'System.String'.
+2024-11-09 19:24:50.391 -04:00 [DBG] Attempting to validate the bound parameter 'poliza' of type 'System.String' ...
+2024-11-09 19:24:50.393 -04:00 [DBG] Done attempting to validate the bound parameter 'poliza' of type 'System.String'.
+2024-11-09 19:24:50.394 -04:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-09 19:24:50.395 -04:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-11-09 19:24:50.396 -04:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-11-09 19:24:50.397 -04:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-09 19:24:50.398 -04:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-09 19:24:50.398 -04:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-09 19:24:50.399 -04:00 [INF] Executing NotFoundObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-11-09 19:24:50.400 -04:00 [INF] Executed action mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api) in 15.106ms
+2024-11-09 19:24:50.401 -04:00 [INF] Executed endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:24:50.402 -04:00 [INF] Respuesta: {"message":"Número de poliza no encontrada."}
+2024-11-09 19:24:50.403 -04:00 [INF] HTTP GET /mi-feature/api/v1/Poliza/ObtenerPoliza responded 404 in 26.4466 ms
+2024-11-09 19:24:50.404 -04:00 [DBG] Connection id "0HN812M5VSAC2" completed keep alive response.
+2024-11-09 19:24:50.405 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5107/mi-feature/api/v1/Poliza/ObtenerPoliza?poliza=30953 - 404 null application/json; charset=utf-8 33.4921ms
+2024-11-09 19:24:55.687 -04:00 [DBG] Connection id "0HN812M5VSAC2" received FIN.
+2024-11-09 19:24:55.688 -04:00 [DBG] Connection id "0HN812M5VSAC2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-09 19:24:55.690 -04:00 [DBG] Connection id "0HN812M5VSAC2" disconnecting.
+2024-11-09 19:24:55.691 -04:00 [DBG] Connection id "0HN812M5VSAC2" stopped.
+2024-11-09 19:25:53.710 -04:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-11-09 19:25:53.782 -04:00 [DBG] Hosting starting
+2024-11-09 19:25:53.884 -04:00 [INF] Now listening on: http://localhost:5107
+2024-11-09 19:25:53.885 -04:00 [DBG] Loaded hosting startup assembly mi_feature.Api
+2024-11-09 19:25:53.886 -04:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-11-09 19:25:53.886 -04:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-11-09 19:25:53.887 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-09 19:25:53.888 -04:00 [INF] Hosting environment: Development
+2024-11-09 19:25:53.888 -04:00 [INF] Content root path: C:\Users\wilsoncampusano\source\repos\MiFeatureMicroservicio\mi_feature.Api
+2024-11-09 19:25:53.889 -04:00 [DBG] Hosting started
+2024-11-09 19:25:54.133 -04:00 [DBG] Connection id "0HN812NDKFJL6" accepted.
+2024-11-09 19:25:54.133 -04:00 [DBG] Connection id "0HN812NDKFJL7" accepted.
+2024-11-09 19:25:54.135 -04:00 [DBG] Connection id "0HN812NDKFJL6" started.
+2024-11-09 19:25:54.135 -04:00 [DBG] Connection id "0HN812NDKFJL7" started.
+2024-11-09 19:25:54.144 -04:00 [DBG] Connection id "0HN812NDKFJL7" received FIN.
+2024-11-09 19:25:54.144 -04:00 [DBG] Connection id "0HN812NDKFJL6" received FIN.
+2024-11-09 19:25:54.149 -04:00 [DBG] Connection id "0HN812NDKFJL6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-09 19:25:54.149 -04:00 [DBG] Connection id "0HN812NDKFJL7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-09 19:25:54.152 -04:00 [DBG] Connection id "0HN812NDKFJL6" disconnecting.
+2024-11-09 19:25:54.152 -04:00 [DBG] Connection id "0HN812NDKFJL7" disconnecting.
+2024-11-09 19:25:54.158 -04:00 [DBG] Connection id "0HN812NDKFJL7" stopped.
+2024-11-09 19:25:54.158 -04:00 [DBG] Connection id "0HN812NDKFJL6" stopped.
+2024-11-09 19:25:54.760 -04:00 [DBG] Connection id "0HN812NDKFJL8" accepted.
+2024-11-09 19:25:54.763 -04:00 [DBG] Connection id "0HN812NDKFJL8" started.
+2024-11-09 19:25:54.813 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5107/swagger/index.html - null null
+2024-11-09 19:25:54.866 -04:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-11-09 19:25:54.889 -04:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-11-09 19:25:54.891 -04:00 [DBG] Request did not match any endpoints
+2024-11-09 19:25:54.900 -04:00 [INF] Solicitud entrante: GET /swagger/index.html
+2024-11-09 19:25:54.986 -04:00 [INF] Respuesta: <!-- HTML for static distribution bundle build -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Swagger UI</title>
+    <link rel="stylesheet" type="text/css" href="./swagger-ui.css">
+    <link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16" />
+    <style>
+
+        html {
+            box-sizing: border-box;
+            overflow: -moz-scrollbars-vertical;
+            overflow-y: scroll;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        body {
+            margin: 0;
+            background: #fafafa;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <div id="swagger-ui"></div>
+
+    <!-- Workaround for https://github.com/swagger-api/swagger-editor/issues/1371 -->
+    <script>
+        if (window.navigator.userAgent.indexOf("Edge") > -1) {
+            console.log("Removing native Edge fetch in favor of swagger-ui's polyfill")
+            window.fetch = undefined;
+        }
+    </script>
+
+    <script src="./swagger-ui-bundle.js"></script>
+    <script src="./swagger-ui-standalone-preset.js"></script>
+    <script>
+        /* Source: https://gist.github.com/lamberta/3768814
+         * Parse a string function definition and return a function object. Does not use eval.
+         * @param {string} str
+         * @return {function}
+         *
+         * Example:
+         *  var f = function (x, y) { return x * y; };
+         *  var g = parseFunction(f.toString());
+         *  g(33, 3); //=> 99
+         */
+        function parseFunction(str) {
+            if (!str) return void (0);
+
+            var fn_body_idx = str.indexOf('{'),
+                fn_body = str.substring(fn_body_idx + 1, str.lastIndexOf('}')),
+                fn_declare = str.substring(0, fn_body_idx),
+                fn_params = fn_declare.substring(fn_declare.indexOf('(') + 1, fn_declare.lastIndexOf(')')),
+                args = fn_params.split(',');
+
+            args.push(fn_body);
+
+            function Fn() {
+                return Function.apply(this, args);
+            }
+            Fn.prototype = Function.prototype;
+
+            return new Fn();
+        }
+
+        window.onload = function () {
+            var configObject = JSON.parse('{"urls":[{"url":"/swagger/v1/swagger.json","name":"Mi API V1"}],"deepLinking":false,"persistAuthorization":false,"displayOperationId":false,"defaultModelsExpandDepth":1,"defaultModelExpandDepth":1,"defaultModelRendering":"example","displayRequestDuration":false,"docExpansion":"list","showExtensions":false,"showCommonExtensions":false,"supportedSubmitMethods":["get","put","post","delete","options","head","patch","trace"],"tryItOutEnabled":false}');
+            var oauthConfigObject = JSON.parse('{"scopeSeparator":" ","scopes":[],"useBasicAuthenticationWithAccessCodeGrant":false,"usePkceWithAuthorizationCodeGrant":false}');
+
+            // Workaround for https://github.com/swagger-api/swagger-ui/issues/5945
+            configObject.urls.forEach(function (item) {
+                if (item.url.startsWith("http") || item.url.startsWith("/")) return;
+                item.url = window.location.href.replace("index.html", item.url).split('#')[0];
+            });
+
+            // If validatorUrl is not explicitly provided, disable the feature by setting to null
+            if (!configObject.hasOwnProperty("validatorUrl"))
+                configObject.validatorUrl = null
+
+            // If oauth2RedirectUrl isn't specified, use the built-in default
+            if (!configObject.hasOwnProperty("oauth2RedirectUrl"))
+                configObject.oauth2RedirectUrl = (new URL("oauth2-redirect.html", window.location.href)).href;
+
+            // Apply mandatory parameters
+            configObject.dom_id = "#swagger-ui";
+            configObject.presets = [SwaggerUIBundle.presets.apis, SwaggerUIStandalonePreset];
+            configObject.layout = "StandaloneLayout";
+
+            // Parse and add interceptor functions
+            var interceptors = JSON.parse('{"RequestInterceptorFunction":null,"ResponseInterceptorFunction":null}');
+            if (interceptors.RequestInterceptorFunction)
+                configObject.requestInterceptor = parseFunction(interceptors.RequestInterceptorFunction);
+            if (interceptors.ResponseInterceptorFunction)
+                configObject.responseInterceptor = parseFunction(interceptors.ResponseInterceptorFunction);
+
+            // Begin Swagger UI call region
+
+            const ui = SwaggerUIBundle(configObject);
+
+            ui.initOAuth(oauthConfigObject);
+
+            // End Swagger UI call region
+
+            window.ui = ui
+        }
+    </script>
+</body>
+</html>
+
+2024-11-09 19:25:54.995 -04:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-11-09 19:25:55.001 -04:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-11-09 19:25:55.017 -04:00 [INF] HTTP GET /swagger/index.html responded 200 in 117.7474 ms
+2024-11-09 19:25:55.020 -04:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-11-09 19:25:55.022 -04:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-11-09 19:25:55.023 -04:00 [DBG] Connection id "0HN812NDKFJL8" completed keep alive response.
+2024-11-09 19:25:55.026 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5107/swagger/index.html - 200 null text/html;charset=utf-8 216.5461ms
+2024-11-09 19:25:55.047 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5107/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-09 19:25:55.066 -04:00 [DBG] Connection id "0HN812NDKFJL8" completed keep alive response.
+2024-11-09 19:25:55.068 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5107/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 21.2225ms
+2024-11-09 19:25:55.667 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5107/_vs/browserLink - null null
+2024-11-09 19:25:55.704 -04:00 [DBG] Connection id "0HN812NDKFJL8" completed keep alive response.
+2024-11-09 19:25:55.706 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5107/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.8565ms
+2024-11-09 19:25:55.775 -04:00 [DBG] Connection id "0HN812NDKFJL8" received FIN.
+2024-11-09 19:25:55.776 -04:00 [DBG] Connection id "0HN812NDKFJL8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-09 19:25:55.778 -04:00 [DBG] Connection id "0HN812NDKFJL8" disconnecting.
+2024-11-09 19:25:55.785 -04:00 [DBG] Connection id "0HN812NDKFJL8" stopped.
+2024-11-09 19:25:56.020 -04:00 [DBG] Connection id "0HN812NDKFJL9" accepted.
+2024-11-09 19:25:56.021 -04:00 [DBG] Connection id "0HN812NDKFJL9" started.
+2024-11-09 19:25:56.022 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5107/swagger/v1/swagger.json - null null
+2024-11-09 19:25:56.024 -04:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-11-09 19:25:56.025 -04:00 [DBG] Request did not match any endpoints
+2024-11-09 19:25:56.026 -04:00 [INF] Solicitud entrante: GET /swagger/v1/swagger.json
+2024-11-09 19:25:56.108 -04:00 [INF] Respuesta: {
+  "openapi": "3.0.1",
+  "info": {
+    "title": "mi_feature.Api",
+    "version": "1.0"
+  },
+  "paths": {
+    "/mi-feature/api/v1/Poliza/ObtenerPoliza": {
+      "get": {
+        "tags": [
+          "Poliza"
+        ],
+        "parameters": [
+          {
+            "name": "poliza",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PolizaDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PolizaDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PolizaDto"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "PolizaDto": {
+        "type": "object",
+        "properties": {
+          "poliza": {
+            "type": "string",
+            "nullable": true
+          },
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ProblemDetails": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "nullable": true
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "detail": {
+            "type": "string",
+            "nullable": true
+          },
+          "instance": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": { }
+      }
+    }
+  }
+}
+2024-11-09 19:25:56.113 -04:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 86.1760 ms
+2024-11-09 19:25:56.114 -04:00 [DBG] Connection id "0HN812NDKFJL9" completed keep alive response.
+2024-11-09 19:25:56.115 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5107/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 92.9556ms
+2024-11-09 19:26:05.802 -04:00 [DBG] Connection id "0HN812NDKFJL9" received FIN.
+2024-11-09 19:26:05.804 -04:00 [DBG] Connection id "0HN812NDKFJL9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-09 19:26:05.806 -04:00 [DBG] Connection id "0HN812NDKFJL9" disconnecting.
+2024-11-09 19:26:05.807 -04:00 [DBG] Connection id "0HN812NDKFJL9" stopped.
+2024-11-09 19:26:33.913 -04:00 [DBG] Connection id "0HN812NDKFJLA" accepted.
+2024-11-09 19:26:33.914 -04:00 [DBG] Connection id "0HN812NDKFJLA" started.
+2024-11-09 19:26:33.915 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5107/mi-feature/api/v1/Poliza/ObtenerPoliza?poliza=30953 - null null
+2024-11-09 19:26:33.920 -04:00 [DBG] 1 candidate(s) found for the request path '/mi-feature/api/v1/Poliza/ObtenerPoliza'
+2024-11-09 19:26:33.924 -04:00 [DBG] Endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)' with route pattern 'mi-feature/api/v1/Poliza/ObtenerPoliza' is valid for the request path '/mi-feature/api/v1/Poliza/ObtenerPoliza'
+2024-11-09 19:26:33.926 -04:00 [DBG] Request matched endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:26:33.928 -04:00 [INF] Solicitud entrante: GET /mi-feature/api/v1/Poliza/ObtenerPoliza
+2024-11-09 19:26:33.930 -04:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-09 19:26:33.931 -04:00 [WRN] Failed to determine the https port for redirect.
+2024-11-09 19:26:33.933 -04:00 [INF] Executing endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:26:33.959 -04:00 [INF] Route matched with {action = "ObtenerPoliza", controller = "Poliza"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPoliza(System.String) on controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api).
+2024-11-09 19:26:33.963 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-09 19:26:33.964 -04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-09 19:26:33.965 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-09 19:26:33.967 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-09 19:26:33.968 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-09 19:26:33.971 -04:00 [DBG] Executing controller factory for controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api)
+2024-11-09 19:26:33.972 -04:00 [DBG] Executed controller factory for controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api)
+2024-11-09 19:26:33.982 -04:00 [DBG] Attempting to bind parameter 'poliza' of type 'System.String' ...
+2024-11-09 19:26:33.984 -04:00 [DBG] Attempting to bind parameter 'poliza' of type 'System.String' using the name 'poliza' in request data ...
+2024-11-09 19:26:33.987 -04:00 [DBG] Done attempting to bind parameter 'poliza' of type 'System.String'.
+2024-11-09 19:26:33.989 -04:00 [DBG] Done attempting to bind parameter 'poliza' of type 'System.String'.
+2024-11-09 19:26:33.990 -04:00 [DBG] Attempting to validate the bound parameter 'poliza' of type 'System.String' ...
+2024-11-09 19:26:33.995 -04:00 [DBG] Done attempting to validate the bound parameter 'poliza' of type 'System.String'.
+2024-11-09 19:26:37.293 -04:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-09 19:26:37.296 -04:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-11-09 19:26:37.298 -04:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-11-09 19:26:37.299 -04:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-09 19:26:37.300 -04:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-09 19:26:37.301 -04:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-09 19:26:37.303 -04:00 [INF] Executing NotFoundObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-11-09 19:26:37.312 -04:00 [INF] Executed action mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api) in 3341.2024ms
+2024-11-09 19:26:37.313 -04:00 [INF] Executed endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:26:37.314 -04:00 [INF] Respuesta: {"message":"Número de poliza no encontrada."}
+2024-11-09 19:26:37.315 -04:00 [INF] HTTP GET /mi-feature/api/v1/Poliza/ObtenerPoliza responded 404 in 3387.3955 ms
+2024-11-09 19:26:37.316 -04:00 [DBG] Connection id "0HN812NDKFJLA" completed keep alive response.
+2024-11-09 19:26:37.317 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5107/mi-feature/api/v1/Poliza/ObtenerPoliza?poliza=30953 - 404 null application/json; charset=utf-8 3402.3411ms
+2024-11-09 19:26:45.487 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5107/mi-feature/api/v1/Poliza/ObtenerPoliza?poliza=30953 - null null
+2024-11-09 19:26:45.489 -04:00 [DBG] 1 candidate(s) found for the request path '/mi-feature/api/v1/Poliza/ObtenerPoliza'
+2024-11-09 19:26:45.490 -04:00 [DBG] Endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)' with route pattern 'mi-feature/api/v1/Poliza/ObtenerPoliza' is valid for the request path '/mi-feature/api/v1/Poliza/ObtenerPoliza'
+2024-11-09 19:26:45.491 -04:00 [DBG] Request matched endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:26:45.492 -04:00 [INF] Solicitud entrante: GET /mi-feature/api/v1/Poliza/ObtenerPoliza
+2024-11-09 19:26:45.493 -04:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-09 19:26:45.494 -04:00 [INF] Executing endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:26:45.495 -04:00 [INF] Route matched with {action = "ObtenerPoliza", controller = "Poliza"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPoliza(System.String) on controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api).
+2024-11-09 19:26:45.496 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-09 19:26:45.497 -04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-09 19:26:45.499 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-09 19:26:45.500 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-09 19:26:45.501 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-09 19:26:45.502 -04:00 [DBG] Executing controller factory for controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api)
+2024-11-09 19:26:45.503 -04:00 [DBG] Executed controller factory for controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api)
+2024-11-09 19:26:45.504 -04:00 [DBG] Attempting to bind parameter 'poliza' of type 'System.String' ...
+2024-11-09 19:26:45.505 -04:00 [DBG] Attempting to bind parameter 'poliza' of type 'System.String' using the name 'poliza' in request data ...
+2024-11-09 19:26:45.507 -04:00 [DBG] Done attempting to bind parameter 'poliza' of type 'System.String'.
+2024-11-09 19:26:45.508 -04:00 [DBG] Done attempting to bind parameter 'poliza' of type 'System.String'.
+2024-11-09 19:26:45.509 -04:00 [DBG] Attempting to validate the bound parameter 'poliza' of type 'System.String' ...
+2024-11-09 19:26:45.510 -04:00 [DBG] Done attempting to validate the bound parameter 'poliza' of type 'System.String'.
+2024-11-09 19:27:57.214 -04:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-11-09 19:27:57.285 -04:00 [DBG] Hosting starting
+2024-11-09 19:27:57.404 -04:00 [INF] Now listening on: http://localhost:5107
+2024-11-09 19:27:57.405 -04:00 [DBG] Loaded hosting startup assembly mi_feature.Api
+2024-11-09 19:27:57.406 -04:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-11-09 19:27:57.406 -04:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-11-09 19:27:57.407 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-09 19:27:57.408 -04:00 [INF] Hosting environment: Development
+2024-11-09 19:27:57.408 -04:00 [INF] Content root path: C:\Users\wilsoncampusano\source\repos\MiFeatureMicroservicio\mi_feature.Api
+2024-11-09 19:27:57.409 -04:00 [DBG] Hosting started
+2024-11-09 19:27:57.850 -04:00 [DBG] Connection id "0HN812OIGATN9" accepted.
+2024-11-09 19:27:57.850 -04:00 [DBG] Connection id "0HN812OIGATN8" accepted.
+2024-11-09 19:27:57.852 -04:00 [DBG] Connection id "0HN812OIGATN9" started.
+2024-11-09 19:27:57.852 -04:00 [DBG] Connection id "0HN812OIGATN8" started.
+2024-11-09 19:27:57.866 -04:00 [DBG] Connection id "0HN812OIGATN9" received FIN.
+2024-11-09 19:27:57.866 -04:00 [DBG] Connection id "0HN812OIGATN8" received FIN.
+2024-11-09 19:27:57.868 -04:00 [DBG] Connection id "0HN812OIGATN8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-09 19:27:57.868 -04:00 [DBG] Connection id "0HN812OIGATN9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-09 19:27:57.870 -04:00 [DBG] Connection id "0HN812OIGATN8" disconnecting.
+2024-11-09 19:27:57.871 -04:00 [DBG] Connection id "0HN812OIGATN9" disconnecting.
+2024-11-09 19:27:57.876 -04:00 [DBG] Connection id "0HN812OIGATN9" stopped.
+2024-11-09 19:27:57.876 -04:00 [DBG] Connection id "0HN812OIGATN8" stopped.
+2024-11-09 19:27:58.790 -04:00 [DBG] Connection id "0HN812OIGATNA" accepted.
+2024-11-09 19:27:58.792 -04:00 [DBG] Connection id "0HN812OIGATNA" started.
+2024-11-09 19:27:58.821 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5107/swagger/index.html - null null
+2024-11-09 19:27:58.859 -04:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-11-09 19:27:58.870 -04:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-11-09 19:27:58.871 -04:00 [DBG] Request did not match any endpoints
+2024-11-09 19:27:58.879 -04:00 [INF] Solicitud entrante: GET /swagger/index.html
+2024-11-09 19:27:58.957 -04:00 [INF] Respuesta: <!-- HTML for static distribution bundle build -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Swagger UI</title>
+    <link rel="stylesheet" type="text/css" href="./swagger-ui.css">
+    <link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16" />
+    <style>
+
+        html {
+            box-sizing: border-box;
+            overflow: -moz-scrollbars-vertical;
+            overflow-y: scroll;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        body {
+            margin: 0;
+            background: #fafafa;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <div id="swagger-ui"></div>
+
+    <!-- Workaround for https://github.com/swagger-api/swagger-editor/issues/1371 -->
+    <script>
+        if (window.navigator.userAgent.indexOf("Edge") > -1) {
+            console.log("Removing native Edge fetch in favor of swagger-ui's polyfill")
+            window.fetch = undefined;
+        }
+    </script>
+
+    <script src="./swagger-ui-bundle.js"></script>
+    <script src="./swagger-ui-standalone-preset.js"></script>
+    <script>
+        /* Source: https://gist.github.com/lamberta/3768814
+         * Parse a string function definition and return a function object. Does not use eval.
+         * @param {string} str
+         * @return {function}
+         *
+         * Example:
+         *  var f = function (x, y) { return x * y; };
+         *  var g = parseFunction(f.toString());
+         *  g(33, 3); //=> 99
+         */
+        function parseFunction(str) {
+            if (!str) return void (0);
+
+            var fn_body_idx = str.indexOf('{'),
+                fn_body = str.substring(fn_body_idx + 1, str.lastIndexOf('}')),
+                fn_declare = str.substring(0, fn_body_idx),
+                fn_params = fn_declare.substring(fn_declare.indexOf('(') + 1, fn_declare.lastIndexOf(')')),
+                args = fn_params.split(',');
+
+            args.push(fn_body);
+
+            function Fn() {
+                return Function.apply(this, args);
+            }
+            Fn.prototype = Function.prototype;
+
+            return new Fn();
+        }
+
+        window.onload = function () {
+            var configObject = JSON.parse('{"urls":[{"url":"/swagger/v1/swagger.json","name":"Mi API V1"}],"deepLinking":false,"persistAuthorization":false,"displayOperationId":false,"defaultModelsExpandDepth":1,"defaultModelExpandDepth":1,"defaultModelRendering":"example","displayRequestDuration":false,"docExpansion":"list","showExtensions":false,"showCommonExtensions":false,"supportedSubmitMethods":["get","put","post","delete","options","head","patch","trace"],"tryItOutEnabled":false}');
+            var oauthConfigObject = JSON.parse('{"scopeSeparator":" ","scopes":[],"useBasicAuthenticationWithAccessCodeGrant":false,"usePkceWithAuthorizationCodeGrant":false}');
+
+            // Workaround for https://github.com/swagger-api/swagger-ui/issues/5945
+            configObject.urls.forEach(function (item) {
+                if (item.url.startsWith("http") || item.url.startsWith("/")) return;
+                item.url = window.location.href.replace("index.html", item.url).split('#')[0];
+            });
+
+            // If validatorUrl is not explicitly provided, disable the feature by setting to null
+            if (!configObject.hasOwnProperty("validatorUrl"))
+                configObject.validatorUrl = null
+
+            // If oauth2RedirectUrl isn't specified, use the built-in default
+            if (!configObject.hasOwnProperty("oauth2RedirectUrl"))
+                configObject.oauth2RedirectUrl = (new URL("oauth2-redirect.html", window.location.href)).href;
+
+            // Apply mandatory parameters
+            configObject.dom_id = "#swagger-ui";
+            configObject.presets = [SwaggerUIBundle.presets.apis, SwaggerUIStandalonePreset];
+            configObject.layout = "StandaloneLayout";
+
+            // Parse and add interceptor functions
+            var interceptors = JSON.parse('{"RequestInterceptorFunction":null,"ResponseInterceptorFunction":null}');
+            if (interceptors.RequestInterceptorFunction)
+                configObject.requestInterceptor = parseFunction(interceptors.RequestInterceptorFunction);
+            if (interceptors.ResponseInterceptorFunction)
+                configObject.responseInterceptor = parseFunction(interceptors.ResponseInterceptorFunction);
+
+            // Begin Swagger UI call region
+
+            const ui = SwaggerUIBundle(configObject);
+
+            ui.initOAuth(oauthConfigObject);
+
+            // End Swagger UI call region
+
+            window.ui = ui
+        }
+    </script>
+</body>
+</html>
+
+2024-11-09 19:27:58.963 -04:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-11-09 19:27:58.966 -04:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-11-09 19:27:58.978 -04:00 [INF] HTTP GET /swagger/index.html responded 200 in 100.4700 ms
+2024-11-09 19:27:58.981 -04:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-11-09 19:27:58.982 -04:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-11-09 19:27:58.983 -04:00 [DBG] Connection id "0HN812OIGATNA" completed keep alive response.
+2024-11-09 19:27:58.985 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5107/swagger/index.html - 200 null text/html;charset=utf-8 168.0622ms
+2024-11-09 19:27:58.995 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5107/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-09 19:27:59.000 -04:00 [DBG] Connection id "0HN812OIGATNA" completed keep alive response.
+2024-11-09 19:27:59.002 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5107/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 6.6099ms
+2024-11-09 19:27:59.584 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5107/_vs/browserLink - null null
+2024-11-09 19:27:59.621 -04:00 [DBG] Connection id "0HN812OIGATNA" completed keep alive response.
+2024-11-09 19:27:59.622 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5107/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.2211ms
+2024-11-09 19:27:59.935 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5107/swagger/v1/swagger.json - null null
+2024-11-09 19:27:59.937 -04:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-11-09 19:27:59.938 -04:00 [DBG] Request did not match any endpoints
+2024-11-09 19:27:59.939 -04:00 [INF] Solicitud entrante: GET /swagger/v1/swagger.json
+2024-11-09 19:28:00.024 -04:00 [INF] Respuesta: {
+  "openapi": "3.0.1",
+  "info": {
+    "title": "mi_feature.Api",
+    "version": "1.0"
+  },
+  "paths": {
+    "/mi-feature/api/v1/Poliza/ObtenerPoliza": {
+      "get": {
+        "tags": [
+          "Poliza"
+        ],
+        "parameters": [
+          {
+            "name": "poliza",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PolizaDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PolizaDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PolizaDto"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "PolizaDto": {
+        "type": "object",
+        "properties": {
+          "poliza": {
+            "type": "string",
+            "nullable": true
+          },
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ProblemDetails": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "nullable": true
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "detail": {
+            "type": "string",
+            "nullable": true
+          },
+          "instance": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": { }
+      }
+    }
+  }
+}
+2024-11-09 19:28:00.029 -04:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 90.2606 ms
+2024-11-09 19:28:00.031 -04:00 [DBG] Connection id "0HN812OIGATNA" completed keep alive response.
+2024-11-09 19:28:00.033 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5107/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 97.3413ms
+2024-11-09 19:28:00.974 -04:00 [DBG] Connection id "0HN812OIGATNA" received FIN.
+2024-11-09 19:28:00.975 -04:00 [DBG] Connection id "0HN812OIGATNA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-09 19:28:00.976 -04:00 [DBG] Connection id "0HN812OIGATNA" disconnecting.
+2024-11-09 19:28:00.982 -04:00 [DBG] Connection id "0HN812OIGATNA" stopped.
+2024-11-09 19:28:08.573 -04:00 [DBG] Connection id "0HN812OIGATNB" accepted.
+2024-11-09 19:28:08.574 -04:00 [DBG] Connection id "0HN812OIGATNB" started.
+2024-11-09 19:28:08.576 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5107/mi-feature/api/v1/Poliza/ObtenerPoliza?poliza=30951 - null null
+2024-11-09 19:28:08.581 -04:00 [DBG] 1 candidate(s) found for the request path '/mi-feature/api/v1/Poliza/ObtenerPoliza'
+2024-11-09 19:28:08.584 -04:00 [DBG] Endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)' with route pattern 'mi-feature/api/v1/Poliza/ObtenerPoliza' is valid for the request path '/mi-feature/api/v1/Poliza/ObtenerPoliza'
+2024-11-09 19:28:08.585 -04:00 [DBG] Request matched endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:28:08.588 -04:00 [INF] Solicitud entrante: GET /mi-feature/api/v1/Poliza/ObtenerPoliza
+2024-11-09 19:28:08.589 -04:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-09 19:28:08.591 -04:00 [WRN] Failed to determine the https port for redirect.
+2024-11-09 19:28:08.593 -04:00 [INF] Executing endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:28:08.611 -04:00 [INF] Route matched with {action = "ObtenerPoliza", controller = "Poliza"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPoliza(System.String) on controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api).
+2024-11-09 19:28:08.613 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-09 19:28:08.615 -04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-09 19:28:08.616 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-09 19:28:08.617 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-09 19:28:08.618 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-09 19:28:08.620 -04:00 [DBG] Executing controller factory for controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api)
+2024-11-09 19:28:08.622 -04:00 [DBG] Executed controller factory for controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api)
+2024-11-09 19:28:08.628 -04:00 [DBG] Attempting to bind parameter 'poliza' of type 'System.String' ...
+2024-11-09 19:28:08.631 -04:00 [DBG] Attempting to bind parameter 'poliza' of type 'System.String' using the name 'poliza' in request data ...
+2024-11-09 19:28:08.633 -04:00 [DBG] Done attempting to bind parameter 'poliza' of type 'System.String'.
+2024-11-09 19:28:08.634 -04:00 [DBG] Done attempting to bind parameter 'poliza' of type 'System.String'.
+2024-11-09 19:28:08.635 -04:00 [DBG] Attempting to validate the bound parameter 'poliza' of type 'System.String' ...
+2024-11-09 19:28:08.639 -04:00 [DBG] Done attempting to validate the bound parameter 'poliza' of type 'System.String'.
+2024-11-09 19:28:16.604 -04:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-09 19:28:16.607 -04:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-11-09 19:28:16.609 -04:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-11-09 19:28:16.610 -04:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-09 19:28:16.610 -04:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-09 19:28:16.611 -04:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-09 19:28:16.613 -04:00 [INF] Executing OkObjectResult, writing value of type 'App.DTOs.PolizaDto'.
+2024-11-09 19:28:16.619 -04:00 [INF] Executed action mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api) in 7998.3176ms
+2024-11-09 19:28:16.620 -04:00 [INF] Executed endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:28:16.621 -04:00 [INF] Respuesta: {"poliza":"30951","nombre":null}
+2024-11-09 19:28:16.622 -04:00 [INF] HTTP GET /mi-feature/api/v1/Poliza/ObtenerPoliza responded 200 in 8034.4164 ms
+2024-11-09 19:28:16.623 -04:00 [DBG] Connection id "0HN812OIGATNB" completed keep alive response.
+2024-11-09 19:28:16.624 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5107/mi-feature/api/v1/Poliza/ObtenerPoliza?poliza=30951 - 200 null application/json; charset=utf-8 8048.3964ms
+2024-11-09 19:28:21.008 -04:00 [DBG] Connection id "0HN812OIGATNB" received FIN.
+2024-11-09 19:28:21.010 -04:00 [DBG] Connection id "0HN812OIGATNB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-09 19:28:21.011 -04:00 [DBG] Connection id "0HN812OIGATNB" disconnecting.
+2024-11-09 19:28:21.012 -04:00 [DBG] Connection id "0HN812OIGATNB" stopped.
+2024-11-09 19:28:35.096 -04:00 [DBG] Connection id "0HN812OIGATNC" accepted.
+2024-11-09 19:28:35.097 -04:00 [DBG] Connection id "0HN812OIGATNC" started.
+2024-11-09 19:28:35.098 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5107/mi-feature/api/v1/Poliza/ObtenerPoliza?poliza=30951 - null null
+2024-11-09 19:28:35.100 -04:00 [DBG] 1 candidate(s) found for the request path '/mi-feature/api/v1/Poliza/ObtenerPoliza'
+2024-11-09 19:28:35.101 -04:00 [DBG] Endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)' with route pattern 'mi-feature/api/v1/Poliza/ObtenerPoliza' is valid for the request path '/mi-feature/api/v1/Poliza/ObtenerPoliza'
+2024-11-09 19:28:35.103 -04:00 [DBG] Request matched endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:28:35.104 -04:00 [INF] Solicitud entrante: GET /mi-feature/api/v1/Poliza/ObtenerPoliza
+2024-11-09 19:28:35.104 -04:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-09 19:28:35.105 -04:00 [INF] Executing endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:28:35.106 -04:00 [INF] Route matched with {action = "ObtenerPoliza", controller = "Poliza"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPoliza(System.String) on controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api).
+2024-11-09 19:28:35.108 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-09 19:28:35.109 -04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-09 19:28:35.110 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-09 19:28:35.111 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-09 19:28:35.113 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-09 19:28:35.114 -04:00 [DBG] Executing controller factory for controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api)
+2024-11-09 19:28:35.115 -04:00 [DBG] Executed controller factory for controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api)
+2024-11-09 19:28:35.117 -04:00 [DBG] Attempting to bind parameter 'poliza' of type 'System.String' ...
+2024-11-09 19:28:35.118 -04:00 [DBG] Attempting to bind parameter 'poliza' of type 'System.String' using the name 'poliza' in request data ...
+2024-11-09 19:28:35.119 -04:00 [DBG] Done attempting to bind parameter 'poliza' of type 'System.String'.
+2024-11-09 19:28:35.120 -04:00 [DBG] Done attempting to bind parameter 'poliza' of type 'System.String'.
+2024-11-09 19:28:35.121 -04:00 [DBG] Attempting to validate the bound parameter 'poliza' of type 'System.String' ...
+2024-11-09 19:28:35.122 -04:00 [DBG] Done attempting to validate the bound parameter 'poliza' of type 'System.String'.
+2024-11-09 19:29:42.782 -04:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-09 19:29:42.789 -04:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-11-09 19:29:42.790 -04:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-11-09 19:29:42.791 -04:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-09 19:29:42.791 -04:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-09 19:29:42.792 -04:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-09 19:29:42.793 -04:00 [INF] Executing OkObjectResult, writing value of type 'App.DTOs.PolizaDto'.
+2024-11-09 19:29:42.794 -04:00 [INF] Executed action mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api) in 67680.0261ms
+2024-11-09 19:29:42.795 -04:00 [INF] Executed endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:29:42.795 -04:00 [INF] Respuesta: {"poliza":"30951","nombre":null}
+2024-11-09 19:29:42.796 -04:00 [INF] HTTP GET /mi-feature/api/v1/Poliza/ObtenerPoliza responded 200 in 67692.3805 ms
+2024-11-09 19:29:42.797 -04:00 [DBG] Connection id "0HN812OIGATNC" completed keep alive response.
+2024-11-09 19:29:42.798 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5107/mi-feature/api/v1/Poliza/ObtenerPoliza?poliza=30951 - 200 null application/json; charset=utf-8 67699.6391ms
+2024-11-09 19:29:46.109 -04:00 [DBG] Connection id "0HN812OIGATNC" received FIN.
+2024-11-09 19:29:46.111 -04:00 [DBG] Connection id "0HN812OIGATNC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-09 19:29:46.112 -04:00 [DBG] Connection id "0HN812OIGATNC" disconnecting.
+2024-11-09 19:29:46.113 -04:00 [DBG] Connection id "0HN812OIGATNC" stopped.
+2024-11-09 19:29:46.544 -04:00 [DBG] Connection id "0HN812OIGATND" accepted.
+2024-11-09 19:29:46.545 -04:00 [DBG] Connection id "0HN812OIGATND" started.
+2024-11-09 19:29:46.546 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5107/mi-feature/api/v1/Poliza/ObtenerPoliza?poliza=30952 - null null
+2024-11-09 19:29:46.548 -04:00 [DBG] 1 candidate(s) found for the request path '/mi-feature/api/v1/Poliza/ObtenerPoliza'
+2024-11-09 19:29:46.549 -04:00 [DBG] Endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)' with route pattern 'mi-feature/api/v1/Poliza/ObtenerPoliza' is valid for the request path '/mi-feature/api/v1/Poliza/ObtenerPoliza'
+2024-11-09 19:29:46.549 -04:00 [DBG] Request matched endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:29:46.550 -04:00 [INF] Solicitud entrante: GET /mi-feature/api/v1/Poliza/ObtenerPoliza
+2024-11-09 19:29:46.551 -04:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-09 19:29:46.551 -04:00 [INF] Executing endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:29:46.552 -04:00 [INF] Route matched with {action = "ObtenerPoliza", controller = "Poliza"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPoliza(System.String) on controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api).
+2024-11-09 19:29:46.553 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-09 19:29:46.554 -04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-09 19:29:46.555 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-09 19:29:46.556 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-09 19:29:46.557 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-09 19:29:46.558 -04:00 [DBG] Executing controller factory for controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api)
+2024-11-09 19:29:46.559 -04:00 [DBG] Executed controller factory for controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api)
+2024-11-09 19:29:46.560 -04:00 [DBG] Attempting to bind parameter 'poliza' of type 'System.String' ...
+2024-11-09 19:29:46.561 -04:00 [DBG] Attempting to bind parameter 'poliza' of type 'System.String' using the name 'poliza' in request data ...
+2024-11-09 19:29:46.562 -04:00 [DBG] Done attempting to bind parameter 'poliza' of type 'System.String'.
+2024-11-09 19:29:46.563 -04:00 [DBG] Done attempting to bind parameter 'poliza' of type 'System.String'.
+2024-11-09 19:29:46.564 -04:00 [DBG] Attempting to validate the bound parameter 'poliza' of type 'System.String' ...
+2024-11-09 19:29:46.565 -04:00 [DBG] Done attempting to validate the bound parameter 'poliza' of type 'System.String'.
+2024-11-09 19:29:46.610 -04:00 [INF] Executed action mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api) in 51.6618ms
+2024-11-09 19:29:46.612 -04:00 [INF] Executed endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:29:46.614 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+FluentValidation.ValidationException: Validation failed: 
+ -- Poliza: El número de póliza no puede ser Colectiva. Severity: Error
+ -- Poliza: El número de póliza debe ser Individual. Severity: Error
+   at mi_feature.Api.Configurations.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\wilsoncampusano\source\repos\MiFeatureMicroservicio\mi_feature.Api\Configurations\ValidationBehavior.cs:line 29
+   at mi_feature.Api.Controllers.PolizaController.ObtenerPoliza(String poliza) in C:\Users\wilsoncampusano\source\repos\MiFeatureMicroservicio\mi_feature.Api\Controllers\PolizaController.cs:line 24
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-11-09 19:29:46.631 -04:00 [ERR] Una o las siguientes validaciones han fallado
+2024-11-09 19:31:44.735 -04:00 [INF] Respuesta: {"type":"mi_feature.Api","title":"Una o las siguientes validaciones han fallado","status":400,"instance":"/mi-feature/api/v1/Poliza/ObtenerPoliza","errors":["El número de póliza no puede ser Colectiva.","El número de póliza debe ser Individual."]}
+2024-11-09 19:31:44.737 -04:00 [INF] HTTP GET /mi-feature/api/v1/Poliza/ObtenerPoliza responded 400 in 118186.8665 ms
+2024-11-09 19:31:44.738 -04:00 [DBG] Connection id "0HN812OIGATND" completed keep alive response.
+2024-11-09 19:31:44.739 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5107/mi-feature/api/v1/Poliza/ObtenerPoliza?poliza=30952 - 400 null application/json; charset=utf-8 118193.2835ms
+2024-11-09 19:32:06.596 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5107/mi-feature/api/v1/Poliza/ObtenerPoliza?poliza=30953 - null null
+2024-11-09 19:32:06.600 -04:00 [DBG] 1 candidate(s) found for the request path '/mi-feature/api/v1/Poliza/ObtenerPoliza'
+2024-11-09 19:32:06.605 -04:00 [DBG] Endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)' with route pattern 'mi-feature/api/v1/Poliza/ObtenerPoliza' is valid for the request path '/mi-feature/api/v1/Poliza/ObtenerPoliza'
+2024-11-09 19:32:06.606 -04:00 [DBG] Request matched endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:32:06.607 -04:00 [INF] Solicitud entrante: GET /mi-feature/api/v1/Poliza/ObtenerPoliza
+2024-11-09 19:32:06.607 -04:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-09 19:32:06.608 -04:00 [INF] Executing endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:32:06.609 -04:00 [INF] Route matched with {action = "ObtenerPoliza", controller = "Poliza"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPoliza(System.String) on controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api).
+2024-11-09 19:32:06.610 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-09 19:32:06.611 -04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-09 19:32:06.612 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-09 19:32:06.613 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-09 19:32:06.614 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-09 19:32:06.615 -04:00 [DBG] Executing controller factory for controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api)
+2024-11-09 19:32:06.616 -04:00 [DBG] Executed controller factory for controller mi_feature.Api.Controllers.PolizaController (mi_feature.Api)
+2024-11-09 19:32:06.617 -04:00 [DBG] Attempting to bind parameter 'poliza' of type 'System.String' ...
+2024-11-09 19:32:06.618 -04:00 [DBG] Attempting to bind parameter 'poliza' of type 'System.String' using the name 'poliza' in request data ...
+2024-11-09 19:32:06.619 -04:00 [DBG] Done attempting to bind parameter 'poliza' of type 'System.String'.
+2024-11-09 19:32:06.620 -04:00 [DBG] Done attempting to bind parameter 'poliza' of type 'System.String'.
+2024-11-09 19:32:06.621 -04:00 [DBG] Attempting to validate the bound parameter 'poliza' of type 'System.String' ...
+2024-11-09 19:32:06.622 -04:00 [DBG] Done attempting to validate the bound parameter 'poliza' of type 'System.String'.
+2024-11-09 19:32:10.484 -04:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-09 19:32:10.486 -04:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-11-09 19:32:10.487 -04:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-11-09 19:32:10.488 -04:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-09 19:32:10.488 -04:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-09 19:32:10.489 -04:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-09 19:32:10.490 -04:00 [INF] Executing NotFoundObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-11-09 19:32:10.493 -04:00 [INF] Executed action mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api) in 3877.6205ms
+2024-11-09 19:32:10.494 -04:00 [INF] Executed endpoint 'mi_feature.Api.Controllers.PolizaController.ObtenerPoliza (mi_feature.Api)'
+2024-11-09 19:32:10.495 -04:00 [INF] Respuesta: {"message":"Número de poliza no encontrada."}
+2024-11-09 19:32:10.495 -04:00 [INF] HTTP GET /mi-feature/api/v1/Poliza/ObtenerPoliza responded 404 in 3888.8093 ms
+2024-11-09 19:32:10.500 -04:00 [DBG] Connection id "0HN812OIGATND" completed keep alive response.
+2024-11-09 19:32:10.501 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5107/mi-feature/api/v1/Poliza/ObtenerPoliza?poliza=30953 - 404 null application/json; charset=utf-8 3904.4915ms
+2024-11-09 19:32:16.327 -04:00 [DBG] Connection id "0HN812OIGATND" received FIN.
+2024-11-09 19:32:16.328 -04:00 [DBG] Connection id "0HN812OIGATND" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-09 19:32:16.330 -04:00 [DBG] Connection id "0HN812OIGATND" disconnecting.
+2024-11-09 19:32:16.331 -04:00 [DBG] Connection id "0HN812OIGATND" stopped.

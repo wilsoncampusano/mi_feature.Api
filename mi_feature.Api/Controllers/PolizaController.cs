@@ -26,7 +26,7 @@ namespace mi_feature.Api.Controllers
                 return result.StatusCode switch
                 {
                     200 => Ok(result.Data),
-                    404 => NotFound(new { message = result.Message }),
+                    404 => NotFound(new { message = result.Message}),
                     400 => BadRequest(new { message = result.Message }), 
                     500 => StatusCode(500, new { message = result.Message }),
                     _ => StatusCode(500, new { message = "Error desconocido." })
