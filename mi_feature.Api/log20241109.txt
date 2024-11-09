@@ -1,0 +1,283 @@
+2024-11-09 18:42:27.209 -04:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-11-09 18:42:27.279 -04:00 [DBG] Hosting starting
+2024-11-09 18:42:27.393 -04:00 [INF] Now listening on: http://localhost:5107
+2024-11-09 18:42:27.394 -04:00 [DBG] Loaded hosting startup assembly mi_feature.Api
+2024-11-09 18:42:27.395 -04:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-11-09 18:42:27.395 -04:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-11-09 18:42:27.396 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-09 18:42:27.397 -04:00 [INF] Hosting environment: Development
+2024-11-09 18:42:27.397 -04:00 [INF] Content root path: C:\Users\wilsoncampusano\source\repos\MiFeatureMicroservicio\mi_feature.Api
+2024-11-09 18:42:27.398 -04:00 [DBG] Hosting started
+2024-11-09 18:42:27.837 -04:00 [DBG] Connection id "0HN811V4SS9LK" received FIN.
+2024-11-09 18:42:27.837 -04:00 [DBG] Connection id "0HN811V4SS9LJ" received FIN.
+2024-11-09 18:42:27.837 -04:00 [DBG] Connection id "0HN811V4SS9LK" accepted.
+2024-11-09 18:42:27.837 -04:00 [DBG] Connection id "0HN811V4SS9LJ" accepted.
+2024-11-09 18:42:27.840 -04:00 [DBG] Connection id "0HN811V4SS9LK" started.
+2024-11-09 18:42:27.841 -04:00 [DBG] Connection id "0HN811V4SS9LJ" started.
+2024-11-09 18:42:27.847 -04:00 [DBG] Connection id "0HN811V4SS9LJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-09 18:42:27.847 -04:00 [DBG] Connection id "0HN811V4SS9LK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-09 18:42:27.850 -04:00 [DBG] Connection id "0HN811V4SS9LJ" disconnecting.
+2024-11-09 18:42:27.850 -04:00 [DBG] Connection id "0HN811V4SS9LK" disconnecting.
+2024-11-09 18:42:27.852 -04:00 [DBG] Connection id "0HN811V4SS9LJ" stopped.
+2024-11-09 18:42:27.852 -04:00 [DBG] Connection id "0HN811V4SS9LK" stopped.
+2024-11-09 18:42:29.200 -04:00 [DBG] Connection id "0HN811V4SS9LL" accepted.
+2024-11-09 18:42:29.201 -04:00 [DBG] Connection id "0HN811V4SS9LL" started.
+2024-11-09 18:42:29.235 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5107/swagger/index.html - null null
+2024-11-09 18:42:29.274 -04:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-11-09 18:42:29.292 -04:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-11-09 18:42:29.294 -04:00 [DBG] Request did not match any endpoints
+2024-11-09 18:42:29.303 -04:00 [INF] Solicitud entrante: GET /swagger/index.html
+2024-11-09 18:42:29.376 -04:00 [INF] Respuesta: <!-- HTML for static distribution bundle build -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Swagger UI</title>
+    <link rel="stylesheet" type="text/css" href="./swagger-ui.css">
+    <link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16" />
+    <style>
+
+        html {
+            box-sizing: border-box;
+            overflow: -moz-scrollbars-vertical;
+            overflow-y: scroll;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        body {
+            margin: 0;
+            background: #fafafa;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <div id="swagger-ui"></div>
+
+    <!-- Workaround for https://github.com/swagger-api/swagger-editor/issues/1371 -->
+    <script>
+        if (window.navigator.userAgent.indexOf("Edge") > -1) {
+            console.log("Removing native Edge fetch in favor of swagger-ui's polyfill")
+            window.fetch = undefined;
+        }
+    </script>
+
+    <script src="./swagger-ui-bundle.js"></script>
+    <script src="./swagger-ui-standalone-preset.js"></script>
+    <script>
+        /* Source: https://gist.github.com/lamberta/3768814
+         * Parse a string function definition and return a function object. Does not use eval.
+         * @param {string} str
+         * @return {function}
+         *
+         * Example:
+         *  var f = function (x, y) { return x * y; };
+         *  var g = parseFunction(f.toString());
+         *  g(33, 3); //=> 99
+         */
+        function parseFunction(str) {
+            if (!str) return void (0);
+
+            var fn_body_idx = str.indexOf('{'),
+                fn_body = str.substring(fn_body_idx + 1, str.lastIndexOf('}')),
+                fn_declare = str.substring(0, fn_body_idx),
+                fn_params = fn_declare.substring(fn_declare.indexOf('(') + 1, fn_declare.lastIndexOf(')')),
+                args = fn_params.split(',');
+
+            args.push(fn_body);
+
+            function Fn() {
+                return Function.apply(this, args);
+            }
+            Fn.prototype = Function.prototype;
+
+            return new Fn();
+        }
+
+        window.onload = function () {
+            var configObject = JSON.parse('{"urls":[{"url":"/swagger/v1/swagger.json","name":"Mi API V1"}],"deepLinking":false,"persistAuthorization":false,"displayOperationId":false,"defaultModelsExpandDepth":1,"defaultModelExpandDepth":1,"defaultModelRendering":"example","displayRequestDuration":false,"docExpansion":"list","showExtensions":false,"showCommonExtensions":false,"supportedSubmitMethods":["get","put","post","delete","options","head","patch","trace"],"tryItOutEnabled":false}');
+            var oauthConfigObject = JSON.parse('{"scopeSeparator":" ","scopes":[],"useBasicAuthenticationWithAccessCodeGrant":false,"usePkceWithAuthorizationCodeGrant":false}');
+
+            // Workaround for https://github.com/swagger-api/swagger-ui/issues/5945
+            configObject.urls.forEach(function (item) {
+                if (item.url.startsWith("http") || item.url.startsWith("/")) return;
+                item.url = window.location.href.replace("index.html", item.url).split('#')[0];
+            });
+
+            // If validatorUrl is not explicitly provided, disable the feature by setting to null
+            if (!configObject.hasOwnProperty("validatorUrl"))
+                configObject.validatorUrl = null
+
+            // If oauth2RedirectUrl isn't specified, use the built-in default
+            if (!configObject.hasOwnProperty("oauth2RedirectUrl"))
+                configObject.oauth2RedirectUrl = (new URL("oauth2-redirect.html", window.location.href)).href;
+
+            // Apply mandatory parameters
+            configObject.dom_id = "#swagger-ui";
+            configObject.presets = [SwaggerUIBundle.presets.apis, SwaggerUIStandalonePreset];
+            configObject.layout = "StandaloneLayout";
+
+            // Parse and add interceptor functions
+            var interceptors = JSON.parse('{"RequestInterceptorFunction":null,"ResponseInterceptorFunction":null}');
+            if (interceptors.RequestInterceptorFunction)
+                configObject.requestInterceptor = parseFunction(interceptors.RequestInterceptorFunction);
+            if (interceptors.ResponseInterceptorFunction)
+                configObject.responseInterceptor = parseFunction(interceptors.ResponseInterceptorFunction);
+
+            // Begin Swagger UI call region
+
+            const ui = SwaggerUIBundle(configObject);
+
+            ui.initOAuth(oauthConfigObject);
+
+            // End Swagger UI call region
+
+            window.ui = ui
+        }
+    </script>
+</body>
+</html>
+
+2024-11-09 18:42:29.382 -04:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-11-09 18:42:29.385 -04:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-11-09 18:42:29.399 -04:00 [INF] HTTP GET /swagger/index.html responded 200 in 97.1567 ms
+2024-11-09 18:42:29.402 -04:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-11-09 18:42:29.403 -04:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-11-09 18:42:29.405 -04:00 [DBG] Connection id "0HN811V4SS9LL" completed keep alive response.
+2024-11-09 18:42:29.407 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5107/swagger/index.html - 200 null text/html;charset=utf-8 177.5703ms
+2024-11-09 18:42:29.419 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5107/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-09 18:42:29.425 -04:00 [DBG] Connection id "0HN811V4SS9LL" completed keep alive response.
+2024-11-09 18:42:29.427 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5107/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 7.6744ms
+2024-11-09 18:42:29.943 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5107/_vs/browserLink - null null
+2024-11-09 18:42:29.980 -04:00 [DBG] Connection id "0HN811V4SS9LL" completed keep alive response.
+2024-11-09 18:42:29.981 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5107/_vs/browserLink - 200 null text/javascript; charset=UTF-8 37.7043ms
+2024-11-09 18:42:30.274 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5107/swagger/v1/swagger.json - null null
+2024-11-09 18:42:30.277 -04:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-11-09 18:42:30.279 -04:00 [DBG] Request did not match any endpoints
+2024-11-09 18:42:30.280 -04:00 [INF] Solicitud entrante: GET /swagger/v1/swagger.json
+2024-11-09 18:42:30.387 -04:00 [INF] Respuesta: {
+  "openapi": "3.0.1",
+  "info": {
+    "title": "mi_feature.Api",
+    "version": "1.0"
+  },
+  "paths": {
+    "/mi-feature/api/v1/Poliza/ObtenerPoliza": {
+      "get": {
+        "tags": [
+          "Poliza"
+        ],
+        "parameters": [
+          {
+            "name": "poliza",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PolizaDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PolizaDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PolizaDto"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "PolizaDto": {
+        "type": "object",
+        "properties": {
+          "poliza": {
+            "type": "string",
+            "nullable": true
+          },
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ProblemDetails": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "nullable": true
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "detail": {
+            "type": "string",
+            "nullable": true
+          },
+          "instance": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": { }
+      }
+    }
+  }
+}
+2024-11-09 18:42:30.391 -04:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 110.9642 ms
+2024-11-09 18:42:30.392 -04:00 [DBG] Connection id "0HN811V4SS9LL" completed keep alive response.
+2024-11-09 18:42:30.393 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5107/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 119.1438ms
+2024-11-09 18:42:31.254 -04:00 [DBG] Connection id "0HN811V4SS9LL" received FIN.
+2024-11-09 18:42:31.255 -04:00 [DBG] Connection id "0HN811V4SS9LL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-09 18:42:31.256 -04:00 [DBG] Connection id "0HN811V4SS9LL" disconnecting.
+2024-11-09 18:42:31.258 -04:00 [DBG] Connection id "0HN811V4SS9LL" stopped.
