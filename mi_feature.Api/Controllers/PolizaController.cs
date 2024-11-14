@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using App.Queries;
 using App.DTOs;
+using mi_feature.Api.Controllers.Helpers;
 
 namespace mi_feature.Api.Controllers
 {
@@ -17,20 +18,15 @@ namespace mi_feature.Api.Controllers
         }
 
         [HttpGet(nameof(ObtenerPoliza))]
-        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(PolizaDto))]
-        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(ApiResponse<PolizaDto>))]
+        [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(ApiResponse<PolizaDto>))]
+        [ProducesResponseType(StatusCodes.Status404NotFound, Type = typeof(ApiResponse<PolizaDto>))]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(ApiResponse<PolizaDto>))]
         public async Task<IActionResult> ObtenerPoliza(string poliza)
         {
-                var result = await _mediator.Send(new ObtenerPolizaQuery { Poliza = poliza });
+            var result = await _mediator.Send(new ObtenerPolizaQuery { Poliza = poliza });
 
-                return result.StatusCode switch
-                {
-                    200 => Ok(result.Data),
-                    404 => NotFound(new { message = result.Message}),
-                    400 => BadRequest(new { message = result.Message }), 
-                    500 => StatusCode(500, new { message = result.Message }),
-                    _ => StatusCode(500, new { message = "Error desconocido." })
-                };
+            return StatusCode(result.StatusCode, result);
         }
     }
 }

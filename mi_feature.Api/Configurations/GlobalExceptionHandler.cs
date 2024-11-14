@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Diagnostics;
+﻿using mi_feature.Api.Controllers.Helpers;
+using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 
 namespace mi_feature.Api.Configurations
@@ -31,7 +32,8 @@ namespace mi_feature.Api.Configurations
             logger.LogError("{ProblemDetailsTitle}", problemDetails.Title);
 
             problemDetails.Status = httpContext.Response.StatusCode;
-            await httpContext.Response.WriteAsJsonAsync(problemDetails, cancellationToken).ConfigureAwait(false);
+            var r = ApiResponse<ProblemDetails>.BadRequestResponse(problemDetails);
+            await httpContext.Response.WriteAsJsonAsync(r, cancellationToken).ConfigureAwait(false);
             return true;
         }
     }
