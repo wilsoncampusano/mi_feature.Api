@@ -15,7 +15,7 @@ namespace mi_feature.Api.Configurations
                 apiResponse.Message = exception.Message;
             
             logger.LogError("{apiResponseMessage}", apiResponse.Message);
-
+            httpContext.Response.StatusCode = apiResponse.StatusCode;
             await httpContext.Response.WriteAsJsonAsync(apiResponse, cancellationToken).ConfigureAwait(false);
             return true;
         }

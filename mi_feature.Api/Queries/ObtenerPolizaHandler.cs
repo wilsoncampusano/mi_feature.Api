@@ -21,6 +21,7 @@ namespace App.Queries
         public async Task<ApiResponse<PolizaDto>> Handle(ObtenerPolizaQuery request, CancellationToken cancellationToken)
         {
             if(request.Poliza.Equals("30953")) return ApiResponse<PolizaDto>.NotFoundResponse("Número de poliza no encontrada.");
+            if (request.Poliza.Equals("30954")) return ApiResponse<PolizaDto>.InternalServerErrorResponse();
             var poliza = await _repository.ObtenerPolizaPorIdAsync(request.Poliza);
        
 

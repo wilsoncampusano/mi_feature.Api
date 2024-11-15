@@ -14,7 +14,7 @@ namespace mi_feature.Api.Database.Repository
         {
             _connectionFactory = connectionFactory;
         }
-        public async Task<PolizaDto> ObtenerPolizaPorIdAsync(string poliza) => new PolizaDto { Poliza = poliza };
+        public async Task<PolizaDto> ObtenerPolizaPorIdAsync(string poliza) => new PolizaDto { Poliza = poliza, Nombre = $"Mi Poliza {poliza}" };
         public Task<bool> EsPolizaColectiva(string poliza)
         {
             return Task.FromResult(poliza.StartsWith("30952"));
@@ -22,7 +22,7 @@ namespace mi_feature.Api.Database.Repository
 
         public Task<bool> EsPolizaIndividual(string poliza)
         {
-            return Task.FromResult(poliza.StartsWith("30951") || poliza.StartsWith("30953"));
+            return Task.FromResult(poliza.StartsWith("30951") || poliza.StartsWith("30953") || poliza.StartsWith("30954"));
         }
 
 
