@@ -8,32 +8,28 @@ namespace mi_feature.Api.Configurations
     {
         public async ValueTask<bool> TryHandleAsync(HttpContext httpContext, Exception exception, CancellationToken cancellationToken)
         {
-            var problemDetails = new ProblemDetails();
-            problemDetails.Instance = httpContext.Request.Path;
+            var apiResponse = ApiResponse<object>.BadRequestResponse(null);
+
+            apiResponse.Endpoint = httpContext.Request.Path;
 
             if (exception is FluentValidation.ValidationException fluentException)
             {
-                problemDetails.Title = "Una o las siguientes validaciones han fallado";
-                problemDetails.Type = "mi_feature.Api";
-                httpContext.Response.StatusCode = StatusCodes.Status400BadRequest;
                 List<string> validationErrors = new List<string>();
                 foreach (var error in fluentException.Errors)
                 {
                     validationErrors.Add(error.ErrorMessage);
                 }
-                problemDetails.Extensions.Add("errors", validationErrors);
+                apiResponse.Extensions.Add("errors", validationErrors);
             }
 
             else
             {
-                problemDetails.Title = exception.Message;
+                apiResponse.Message = exception.Message;
             }
 
-            logger.LogError("{ProblemDetailsTitle}", problemDetails.Title);
+            logger.LogError("{apiResponseMessage}", apiResponse.Message);
 
-            problemDetails.Status = httpContext.Response.StatusCode;
-            var r = ApiResponse<ProblemDetails>.BadRequestResponse(problemDetails);
-            await httpContext.Response.WriteAsJsonAsync(r, cancellationToken).ConfigureAwait(false);
+            await httpContext.Response.WriteAsJsonAsync(apiResponse, cancellationToken).ConfigureAwait(false);
             return true;
         }
     }

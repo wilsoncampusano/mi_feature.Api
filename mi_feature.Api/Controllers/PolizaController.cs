@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using App.Queries;
 using App.DTOs;
 using mi_feature.Api.Controllers.Helpers;
+using System.ComponentModel.DataAnnotations;
 
 namespace mi_feature.Api.Controllers
 {
@@ -22,7 +23,7 @@ namespace mi_feature.Api.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(ApiResponse<PolizaDto>))]
         [ProducesResponseType(StatusCodes.Status404NotFound, Type = typeof(ApiResponse<PolizaDto>))]
         [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(ApiResponse<PolizaDto>))]
-        public async Task<IActionResult> ObtenerPoliza(string poliza)
+        public async Task<IActionResult> ObtenerPoliza([FromQuery, Required]  string poliza)
         {
             var result = await _mediator.Send(new ObtenerPolizaQuery { Poliza = poliza });
 
