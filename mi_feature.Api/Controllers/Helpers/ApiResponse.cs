@@ -7,7 +7,7 @@ namespace mi_feature.Api.Controllers.Helpers
         public int StatusCode { get; set; }
         public bool Success { get; set; }
         public string Message { get; set; }
-        public string Endpoint { get; set; }
+
         [JsonExtensionData]
         public IDictionary<string, object?> Extensions { get; set; } = new Dictionary<string, object?>(StringComparer.Ordinal);
         public T Data { get; set; }

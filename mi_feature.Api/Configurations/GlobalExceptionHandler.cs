@@ -1,6 +1,5 @@
 ﻿using mi_feature.Api.Controllers.Helpers;
 using Microsoft.AspNetCore.Diagnostics;
-using Microsoft.AspNetCore.Mvc;
 
 namespace mi_feature.Api.Configurations
 {
@@ -10,23 +9,11 @@ namespace mi_feature.Api.Configurations
         {
             var apiResponse = ApiResponse<object>.BadRequestResponse(null);
 
-            apiResponse.Endpoint = httpContext.Request.Path;
-
             if (exception is FluentValidation.ValidationException fluentException)
-            {
-                List<string> validationErrors = new List<string>();
-                foreach (var error in fluentException.Errors)
-                {
-                    validationErrors.Add(error.ErrorMessage);
-                }
-                apiResponse.Extensions.Add("errors", validationErrors);
-            }
-
+                apiResponse.Extensions.Add("errors", fluentException.Errors.Select(e => e.ErrorMessage));
             else
-            {
                 apiResponse.Message = exception.Message;
-            }
-
+            
             logger.LogError("{apiResponseMessage}", apiResponse.Message);
 
             await httpContext.Response.WriteAsJsonAsync(apiResponse, cancellationToken).ConfigureAwait(false);
