@@ -4,6 +4,7 @@ using App.Queries;
 using App.DTOs;
 using mi_feature.Api.Controllers.Helpers;
 using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Mvc.Formatters;
 
 namespace mi_feature.Api.Controllers
 {
